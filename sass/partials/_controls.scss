@@ -1,0 +1,52 @@
+.btn {
+  border: 0;
+  height: 48px;
+  line-height: 48px;
+  color: #fff;
+  font-family: $fontNameLight;
+  font-size: 19px;
+  text-align: center;
+  display: block;
+  border-radius: 0;
+  width: 100%;
+}
+
+.btn_black{
+  @extend .btn;
+  background-color: #364049;
+}
+
+
+
+.textbox,
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=search] {
+  color: #fff;
+  font-family: $fontNameLight;
+  font-size: 19px;
+  height: 49px;
+  padding: 13px 5px;
+  background-color: #e37171;
+  @include box-sizing(border-box);
+  border: 0;
+  display: block;
+  width: 100%;
+  border-radius: 0;
+  transition:all 0.3s;
+  &::-webkit-input-placeholder {
+    color: #fff !important;
+  }
+  &:focus{
+    background-color: darken(#e37171,3%);
+  }
+
+  &.error{
+
+  }
+
+}
+
+

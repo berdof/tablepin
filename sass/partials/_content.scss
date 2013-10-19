@@ -1,0 +1,4 @@
+.content{
+  @extend .wrapper;
+  @include border-radius(5px);
+}
