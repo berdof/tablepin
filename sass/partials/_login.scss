@@ -1,25 +1,52 @@
-.login-form{
-  padding: 0 0 18px 0;
-  input{
+.login-form {
+  padding: 0;
+  input {
 
   }
+  .btn_black {
+    margin-bottom: 17px;
+  }
 }
-%login-form__row{
+
+%login-form__row {
   padding: 0 0 17px;
-  input{
-    padding-left: 22px;
+  position: relative;
+  &:before {
+    content: '';
+    position: absolute;
+    left: 14px;
+    top: 15px;
+    display: block;
+  }
+  input {
+    padding-left: 44px;
   }
 }
-.login-form__email{
-  @extend %login-form__row;
 
+.login-form__email {
+  @extend %login-form__row;
+  &:before {
+    @extend .ico-person;
+  }
 }
 
-.login-form__password{
+.login-form__password {
   @extend %login-form__row;
+  &:before {
+    @extend .ico-lock;
+    left: 17px;
+  }
 }
 
-.login__info{
+.login-form__no-ico {
+  @extend %login-form__row;
+  .textbox,
+  input {
+    padding-left: 25px;
+  }
+}
+
+.login__info {
   opacity: .5;
   color: #353f49;
   font-size: 14px;
@@ -28,33 +55,54 @@
   padding: 0 0 9px;
 }
 
-.nav_share{
+.nav_share {
   font-size: 0;
   text-align: center;
   width: 100%;
   padding: 0 0 18px 0;
-  li{
+  li {
     display: inline-block;
     padding: 0 13px;
   }
-  a{
+  a {
     color: #65474d;
     font-size: 28px;
   }
 }
 
-.logo{
-  @include sprite-background(login);
-  margin: 0 auto;
-}
-
-.login__logo{
+.login__logo {
   margin: 25px auto 25px auto;
 }
 
-.login__bottom{
+.login__logo_small{
+  clip: rect(100,100,100,100);
+}
+
+.login__bottom {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
+}
+
+.select {
+  .textbox {
+    position: relative;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 21px;
+      right: 15px;
+      display: block;
+      @extend .ico-arr-d;
+    }
+  }
+  select {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+  }
 }

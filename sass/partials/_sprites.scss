@@ -8,7 +8,6 @@ $sprites: sprite-map("sprite/*.png", $position: 0%, $spacing: 25px, $repeat: no-
     width: image-width(sprite-file($sprites, $name)) / 2;
     display: block;
   }
-
   $ypos: round(nth(sprite-position($sprites, $name), 2) / 2);
   background-position: 0 $ypos;
 // Hard coded width of the normal sprite image. There must be a smarter way to do this.

@@ -1,0 +1,35 @@
+<%= render :partial => "views/base/top" %>
+
+<div class="wrapper">
+    <a class="ico-logo-t" href="javascript:void(0);"></a>
+
+    <form class="login-form" action="#">
+        <div class="login-form__no-ico">
+            <input type="password" placeholder="password"/>
+        </div>
+        <div class="login-form__no-ico">
+            <input type="password" placeholder="repaeat password"/>
+        </div>
+        <div class="login-form__no-ico select">
+            <span class="textbox">выбор обращения</span>
+            <select>
+                <option value="1">выбор обращения</option>
+                <option value="2">выбор обращения2</option>
+                <option value="3">выбор обращения3</option>
+                <option value="4">выбор обращения4</option>
+                <option value="5">выбор обращения5</option>
+            </select>
+        </div>
+        <div class="login-form__no-ico">
+            <input type="text" placeholder="ваше имя и фамилия"/>
+        </div>
+        <div class="login-form__no-ico">
+            <input type="text" placeholder="город"/>
+        </div>
+        <input class="btn_black" type="button" value="Сохранить"/>
+    </form>
+</div>
+<%= render :partial => "views/base/bottom" %>
+
+
+
