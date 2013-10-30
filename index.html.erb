@@ -1,12 +1,13 @@
-<%= render :partial => "views/base/top" %>
+<%= render :partial => "views/base/top"  , :locals => { :bodyClass => false}%>
 
-<ul class="wrapper">
+<ol class="wrapper">
     <li><a href="loading.html">loading.html</a></li>
     <li><a href="login.html">login.html</a></li>
     <li><a href="registration_main.html">registration_main.html</a></li>
     <li><a href="registration_step1.html">registration_step1.html</a></li>
     <li><a href="registration_step2.html">registration_step2.html</a></li>
-</ul>
+    <li><a href="vanue_list.html">vanue_list.html</a></li>
+</ol>
 
 <%= render :partial => "views/base/bottom" %>
 

@@ -42,27 +42,28 @@
   }
   @return $target / $context + 0em;
 }
+@mixin placeholderIn($color, $lh) {
+  font-family: $fontNameLight !important;
+  color: $color !important;
+  line-height: $lh !important;
+}
 
 @mixin placeholder($color, $lh) {
-  %placeholder {
-    font-family: $fontNameLight !important;
-    color: $color !important;
-    line-height: $lh !important;
-  }
+
   &.placeholder {
-    @extend %placeholder;
+    @include placeholderIn($color, $lh);
   }
   :-ms-input-placeholder {
-    @extend %placeholder;
+    @include placeholderIn($color, $lh);
   }
   &:-moz-placeholder {
-    @extend %placeholder;
+    @include placeholderIn($color, $lh);
   }
   &::-moz-placeholder {
-    @extend %placeholder;
+    @include placeholderIn($color, $lh);
   }
   &::-webkit-input-placeholder {
-    @extend %placeholder;
+    @include placeholderIn($color, $lh);
   }
 }
 

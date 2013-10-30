@@ -4,7 +4,11 @@ $device-list: ico-fb,
               ico-twitter,
               ico-vk,
               ico-logo,
-              ico-arr-d
+              ico-arr-d,
+              ico-arr-l,
+              ico-location,
+              ico-search,
+              ico-arr-d_red
 ;
 
 %device{
@@ -15,7 +19,7 @@ $device-list: ico-fb,
   $selector: unquote(".#{$item}");
   #{$selector}{
     @extend %device;
-    @include sprite-background($item);
+    @include sprite-background($item,$sprites);
   }
 }
 

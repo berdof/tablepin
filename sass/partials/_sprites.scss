@@ -1,17 +1,18 @@
 $sprites: sprite-map("sprite/*.png", $position: 0%, $spacing: 25px, $repeat: no-repeat, $readonly-spacing: 10px);
+$sprites-stars: sprite-map("sprite-stars/*.png", $position: 0%, $spacing: 25px, $repeat: no-repeat, $readonly-spacing: 10px);
 
-@mixin sprite-background($name, $dimensions: true) {
-  background-image: sprite-url($sprites);
+@mixin sprite-background($name,$map: $sprites, $spriteWidth:194px, $dimensions: true) {
+  background-image: sprite-url($map);
   background-repeat: no-repeat;
   @if $dimensions == true{
-    height: image-height(sprite-file($sprites, $name)) / 2;
-    width: image-width(sprite-file($sprites, $name)) / 2;
+    height: ceil(image-height(sprite-file($map, $name)) / 2) + 1;
+    width: ceil(image-width(sprite-file($map, $name)) / 2);
     display: block;
   }
-  $ypos: round(nth(sprite-position($sprites, $name), 2) / 2);
+  $ypos: ceil(nth(sprite-position($map, $name), 2) / 2);
   background-position: 0 $ypos;
 // Hard coded width of the normal sprite image. There must be a smarter way to do this.
-  @include background-size(194px auto);
+  @include background-size($spriteWidth auto);
 }
 
 @function sprite-width($name, $smap: $sprites) {

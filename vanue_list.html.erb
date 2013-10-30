@@ -1,0 +1,80 @@
+<%= render :partial => "views/base/top", :locals => {:bodyClass => "white-bg"} %>
+<div class="wrapper value-list">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
+            <a class="show-on-map pull-right" href="javascript:void(0);">show on map <i class="ico-location"></i></a>
+        </div>
+        <form class="value-list__form">
+
+
+            <div class="value-list__form__submit pull-left">
+                <input type="submit"/>
+            </div>
+            <input type="text" placeholder="Поиск по списку" class="pull-right" value=""/>
+
+        </form>
+    </header>
+    <div class="list-wrapper">
+        <div class="list__header">
+            <h2 class="pull-left">найдено 3 ресторана</h2>
+
+            <div class="list__header__select select pull-right">
+                <div class="textbox">
+                    рейтинг
+                </div>
+                <select>
+                    <option value="1">рейтинг</option>
+                    <option value="2">рейтинг</option>
+                    <option value="3">рейтинг</option>
+                    <option value="4">рейтинг</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="list">
+            <% (1..5).each do |n| %>
+                <div class="list__item">
+                    <div class="list__item__main">
+                        <%= image_tag(lorem_image("125x90")) %>
+
+                        <div class="list__item__info">
+                            <h2 class="list__item__title">
+                                Bartolomeo
+                                <span class="list__item__distance">5 км</span>
+                            </h2>
+
+                            <div class="list__item__address">
+                                <p>ул. наб. Победы, 9Б,</p>
+
+                                <p>Днепропетровск,</p>
+
+                                <p>Днепропетровская обл</p>
+                            </div>
+
+                            <div class="list__item__rate">
+                                <div class="rate pull-left"><i style="width:20%"></i></div>
+                                <span class="list__item__rate__info pull-right">9.0 из 10</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="list__item__secondary">
+                        <h4>Был 1 раз</h4>
+
+                        <p>последние броинрование</p>
+
+                        <time>24 августа 15:45</time>
+
+                        <time>из Киев, Украина</time>
+                    </div>
+                </div>
+            <% end %>
+
+        </div>
+    </div>
+</div>
+<%= render :partial => "views/base/bottom" %>
+
+
+

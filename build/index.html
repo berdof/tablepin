@@ -3,22 +3,29 @@
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
     <title>Tablepin</title>
     <link href="css/style.css" rel="stylesheet"/>
 </head>
+    <body>
 
-
-
-<ul class="wrapper">
+<ol class="wrapper">
     <li><a href="loading.html">loading.html</a></li>
     <li><a href="login.html">login.html</a></li>
     <li><a href="registration_main.html">registration_main.html</a></li>
     <li><a href="registration_step1.html">registration_step1.html</a></li>
     <li><a href="registration_step2.html">registration_step2.html</a></li>
-</ul>
+    <li><a href="vanue_list.html">vanue_list.html</a></li>
+</ol>
 
 <script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".list__item").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
 </body>
 </html>
 

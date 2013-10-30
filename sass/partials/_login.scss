@@ -86,6 +86,8 @@
 }
 
 .select {
+  position: relative;
+  overflow: hidden;
   .textbox {
     position: relative;
     &:after {

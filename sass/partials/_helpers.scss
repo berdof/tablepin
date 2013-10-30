@@ -3,6 +3,9 @@ body {
   font-family: $fontNameRegular;
   color: $textColor;
   background: #d45657;
+  &.white-bg{
+    background: #fff;
+  }
 }
 
 .wrapper {

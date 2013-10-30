@@ -1,4 +1,11 @@
 <script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".list__item").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
 <%= livereload_js unless ENV["RACK_ENV"] == "production" %>
 </body>
 </html>
