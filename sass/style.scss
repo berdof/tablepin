@@ -26,12 +26,24 @@
 
 @import "partials/login" ;
 @import "partials/value-list" ;
+@import "partials/profile" ;
 
 
 
 @import "partials/footer" ;
 
 
+.debug{
+  .header,
+  .footer{
+    position: absolute;
+  }
+  width:320px;
+  height: 548px;
+  position: relative;
+  @include box-sizing(border-box);
+  border: 1px solid #000;
+}
 
 
 

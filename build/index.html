@@ -16,12 +16,13 @@
     <li><a href="registration_step1.html">registration_step1.html</a></li>
     <li><a href="registration_step2.html">registration_step2.html</a></li>
     <li><a href="vanue_list.html">vanue_list.html</a></li>
+    <li><a href="profile_main.html">profile_main.html</a></li>
 </ol>
 
 <script src="js/vendors/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".list__item").on("click",function(){
+        $(".list__item, .profile__user__row_soc").on("click",function(){
             $(this).toggleClass("opened")
         })
     })

@@ -1,0 +1,82 @@
+<%= render :partial => "views/base/top", :locals => {:bodyClass => "white-bg"} %>
+<div class="wrapper wrapper_no-pad profile">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <h2>My Profile</h2>
+            <a class="ico-gear header__ico_r" href="javascript:void(0);"></a>
+        </div>
+    </header>
+    <div class="content wrapper_no-pad">
+        <div class="profile__user">
+            <div class="profile__user__img">
+                <%= image_tag(lorem_image("109x153")) %>
+            </div>
+            <div class="profile__user__info">
+                <h2 class="profile__user__row">
+                    <i class="ico-person_s"></i> Meagan Fisher
+                </h2>
+
+                <div class="profile__user__row">
+                    <i class="ico-location_s"></i>Brooklyn, New York, USA
+                </div>
+                <div class="profile__user__row">
+                    <i class="ico-star_s"></i>
+                    Ваше звание:
+                    <span>новичок</span>
+                </div>
+                <div class="profile__user__row profile__user__row_soc ">
+                    <i class="ico-connect_s"></i>
+                    my social networks
+                    accounts
+                    <i class="ico-arr-r_s"></i>
+                    <ul class="profile__user__row_soc__nav">
+                        <li><a class="ico-vk" href="javascript:void(0);"></a></li>
+                        <li><a class="ico-twitter" href="javascript:void(0);"></a></li>
+                        <li><a class="ico-fb" href="javascript:void(0);"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="profile__restaurants">
+            <li>
+                pins
+                <span>12</span>
+            </li>
+            <li>
+                restaurants
+                <span>7</span>
+            </li>
+            <li>
+                rating
+                <span>45</span>
+            </li>
+        </ul>
+        <div class="profile__feedback">
+            <div class="profile__feedback__row">
+                <div class="profile__feedback__img">
+                    <%= image_tag(lorem_image("165x113")) %>
+                </div>
+                <div class="profile__feedback__info">
+                         9
+                    <span>отзывов</span>
+                    <i class="ico-arr-r_b"></i>
+                </div>
+            </div>
+            <div class="profile__feedback__row">
+                <div class="profile__feedback__img">
+                    <%= image_tag(lorem_image("165x113")) %>
+                </div>
+                <div class="profile__feedback__info">
+                         11
+                    <span>подсказок</span>
+                    <i class="ico-arr-r_b"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%= render :partial => "views/footer" %>
+</div>
+<%= render :partial => "views/base/bottom" %>
+
+
+

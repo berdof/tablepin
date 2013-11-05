@@ -9,6 +9,25 @@
   .ico-arr-l{
     margin-top: 15px;
   }
+  h2{
+    line-height: 47px;
+    height: 47px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+
+  }
+}
+.header__ico_l{
+  position: absolute;
+  left: $headerPaddingLR;
+  top: 15px;
+}
+.header__ico_r{
+  @extend .header__ico_l;
+  left: auto;
+  right: $headerPaddingLR;
 }
 .header_fixed{
   position: fixed;

@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Tablepin</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+    <body class="white-bg">
+<div class="wrapper wrapper_no-pad profile">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <h2>My Profile</h2>
+            <a class="ico-gear header__ico_r" href="javascript:void(0);"></a>
+        </div>
+    </header>
+    <div class="content wrapper_no-pad">
+        <div class="profile__user">
+            <div class="profile__user__img">
+                <img src="http://placehold.it/109x153" />
+            </div>
+            <div class="profile__user__info">
+                <h2 class="profile__user__row">
+                    <i class="ico-person_s"></i> Meagan Fisher
+                </h2>
+
+                <div class="profile__user__row">
+                    <i class="ico-location_s"></i>Brooklyn, New York, USA
+                </div>
+                <div class="profile__user__row">
+                    <i class="ico-star_s"></i>
+                    Ваше звание:
+                    <span>новичок</span>
+                </div>
+                <div class="profile__user__row profile__user__row_soc ">
+                    <i class="ico-connect_s"></i>
+                    my social networks
+                    accounts
+                    <i class="ico-arr-r_s"></i>
+                    <ul class="profile__user__row_soc__nav">
+                        <li><a class="ico-vk" href="javascript:void(0);"></a></li>
+                        <li><a class="ico-twitter" href="javascript:void(0);"></a></li>
+                        <li><a class="ico-fb" href="javascript:void(0);"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="profile__restaurants">
+            <li>
+                pins
+                <span>12</span>
+            </li>
+            <li>
+                restaurants
+                <span>7</span>
+            </li>
+            <li>
+                rating
+                <span>45</span>
+            </li>
+        </ul>
+        <div class="profile__feedback">
+            <div class="profile__feedback__row">
+                <div class="profile__feedback__img">
+                    <img src="http://placehold.it/165x113" />
+                </div>
+                <div class="profile__feedback__info">
+                         9
+                    <span>отзывов</span>
+                    <i class="ico-arr-r_b"></i>
+                </div>
+            </div>
+            <div class="profile__feedback__row">
+                <div class="profile__feedback__img">
+                    <img src="http://placehold.it/165x113" />
+                </div>
+                <div class="profile__feedback__info">
+                         11
+                    <span>подсказок</span>
+                    <i class="ico-arr-r_b"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+    <ul class="footer__nav">
+        <li><a class="ico-nav1" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav2" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav3" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav4" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav5 active" href="javascript:void(0);"></a></li>
+    </ul>
+</footer>
+
+
+</div>
+<script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".list__item, .profile__user__row_soc").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
+</body>
+</html>
+
+

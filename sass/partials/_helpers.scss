@@ -13,6 +13,10 @@ body {
   padding: 0 $wrapperPaddings;
   @include box-sizing(border-box);
 }
+.wrapper_no-pad{
+  padding-left: 0;
+  padding-right: 0;
+}
 
 a{
   color: #364049 ;

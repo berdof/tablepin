@@ -1,3 +1,28 @@
 .footer{
-  @extend .wrapper;
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #d45657;
+  height: 46px;
+  border-top: 3px solid #993e3f;
+}
+.footer__nav{
+  overflow: hidden;
+
+  li{
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    @include box-sizing(border-box);
+    padding: 0;
+    height: 32px;
+    position: relative;
+  }
+  a{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+  }
 }

@@ -8,7 +8,14 @@ $device-list: ico-fb,
               ico-arr-l,
               ico-location,
               ico-search,
-              ico-arr-d_red
+              ico-arr-d_red,
+              ico-gear,
+              ico-person_s,
+              ico-location_s ,
+              ico-star_s,
+              ico-connect_s,
+              ico-arr-r_s,
+              ico-arr-r_b
 ;
 
 %device{
@@ -43,3 +50,25 @@ $device-list: ico-fb,
     @extend .ico-logo;
   }
 }
+
+$icons-nav:
+            ico-nav1,
+            ico-nav2,
+            ico-nav3,
+            ico-nav4,
+            ico-nav5;
+
+@each $item in $icons-nav {
+  $selector: unquote(".#{$item}");
+  #{$selector}{
+    @extend %device;
+    $height: ceil(image-height(sprite-file($sprites, $item)) / 2) + 1;
+    $width: ceil(image-width(sprite-file($sprites, $item)) / 2);
+    @include sprite-background($item,$sprites);
+    margin-left: $width/-2;
+    &.active{
+      @include sprite-background("#{$item}_a",$sprites,false);
+    }
+  }
+}
+

@@ -1,5 +1,5 @@
-*/images/images/*
-*/images/images-retina/*
+*/images/sprite/*
+*/images/sprite-retina/*
 */.idea
 */META-INF/*
 */.sass-cache
@@ -11,4 +11,8 @@
 */Gruntfile.js
 */package.json
 */node_modules/*
+*/sass/*
+*/views/*
+*.erb
+*.md
 
