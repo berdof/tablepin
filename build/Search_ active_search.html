@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Tablepin</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+    <body class="white-bg ">
+<div class="wrapper wrapper_pb-footer value-list">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <span class="header__title pull-left">Поиск</span>
+            <a class="show-on-map pull-right" href="javascript:void(0);">Днепропетровск <i class="ico-arr-d_red2"></i></a>
+        </div>
+        <form class="value-list__form">
+            <div class="value-list__form__submit pull-left">
+                <input type="submit"/>
+            </div>
+            <input type="text" placeholder="Find restaurants and users..." class="pull-right" value=""/>
+        </form>
+    </header>
+    <div class="list-wrapper">
+        <div class="list list_search">
+            <div class="list__item ">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__pin"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Around
+                        </h2>
+
+                        <div class="list__item__address">
+                            <p>Посмотреть рестораны, которые
+                                находятся рядом с Вамиили
+                                с каким-либо другим адресом</p>
+                        </div>
+                        <i class="ico-arr-r"></i>
+                    </div>
+                </div>
+                <div class="list__item__secondary">
+                    <span class="list__item__secondary__distance">5 км</span>
+
+                    <div class="list__item__slider">
+                        <div class="slider">
+                            <i style="left: 50%" class="slider__handle"></i>
+
+                            <div class="slider__progress"><i style="width: 50%"></i></div>
+                        </div>
+
+                        <a class="btn btn_black" href="javascript:void(0);">Показать рестораны</a>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item ">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__top"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            TOP restaurants
+                        </h2>
+
+                        <div class="list__item__address">
+                            <p>Самые лучшие и самые
+                                популярные заведения по мнению
+                                пользователей Tablepin</p>
+                        </div>
+                        <i class="ico-arr-r"></i>
+                    </div>
+                </div>
+                <div class="list__item__secondary">
+                    <span class="list__item__secondary__distance">5 км</span>
+
+                    <div class="list__item__slider">
+                        <div class="slider">
+                            <i style="left: 50%" class="slider__handle"></i>
+
+                            <div class="slider__progress"><i style="width: 50%"></i></div>
+                        </div>
+
+                        <a class="btn btn_black" href="javascript:void(0);">Показать рестораны</a>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item ">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__like"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Favourite
+                        </h2>
+
+                        <div class="list__item__address">
+                            <p>Ваши любимые заведения</p>
+                        </div>
+                        <i class="ico-arr-r"></i>
+                    </div>
+                </div>
+                <div class="list__item__secondary">
+                    <span class="list__item__secondary__distance">5 км</span>
+
+                    <div class="list__item__slider">
+                        <div class="slider">
+                            <i style="left: 50%" class="slider__handle"></i>
+
+                            <div class="slider__progress"><i style="width: 50%"></i></div>
+                        </div>
+
+                        <a class="btn btn_black" href="javascript:void(0);">Показать рестораны</a>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item ">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__bookmark"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            List of plans
+                        </h2>
+
+                        <div class="list__item__address">
+                            <p>Заведения, которые Вы планируете
+                                посетить</p>
+                        </div>
+                        <i class="ico-arr-r"></i>
+                    </div>
+                </div>
+                <div class="list__item__secondary">
+                    <span class="list__item__secondary__distance">5 км</span>
+
+                    <div class="list__item__slider">
+                        <div class="slider">
+                            <i style="left: 50%" class="slider__handle"></i>
+
+                            <div class="slider__progress"><i style="width: 50%"></i></div>
+                        </div>
+
+                        <a class="btn btn_black" href="javascript:void(0);">Показать рестораны</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+    <ul class="footer__nav">
+        <li><a class="ico-nav1" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav2" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav3" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav4" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav5 active" href="javascript:void(0);"></a></li>
+    </ul>
+</footer>
+
+
+</div>
+<script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".list__item, .profile__user__row_soc").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
+</body>
+</html>
+
+

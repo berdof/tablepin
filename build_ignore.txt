@@ -1,5 +1,5 @@
 */images/sprite/*
-*/images/sprite-retina/*
+*/images/sprite-stars/*
 */.idea
 */META-INF/*
 */.sass-cache

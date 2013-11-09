@@ -19,6 +19,12 @@
 
   }
 }
+.header__title{
+  font-size: 22px;
+  display: block;
+  height: 47px;
+  line-height: 47px;
+}
 .header__ico_l{
   position: absolute;
   left: $headerPaddingLR;

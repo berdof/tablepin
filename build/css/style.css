@@ -94,17 +94,21 @@ body {
   padding-right: 0; }
 
 /* line 21, ../sass/partials/_helpers.scss */
+.wrapper_pb-footer {
+  padding-bottom: 49  px !important; }
+
+/* line 25, ../sass/partials/_helpers.scss */
 a {
   color: #364049; }
 
-/* line 25, ../sass/partials/_helpers.scss */
+/* line 29, ../sass/partials/_helpers.scss */
 * {
   outline: none;
   -webkit-font-smoothing: antialiased !important;
   -webkit-appearance: none;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 33, ../sass/partials/_helpers.scss */
+/* line 37, ../sass/partials/_helpers.scss */
 .clearfix:after, .wrapper:after, .content:after, .nav:after, .nav_hor:after, .header:after, .value-list__form:after, .list__header:after, .profile__user__row:after {
   visibility: hidden;
   display: block;
@@ -112,47 +116,47 @@ a {
   clear: both;
   height: 0; }
 
-/* line 42, ../sass/partials/_helpers.scss */
+/* line 46, ../sass/partials/_helpers.scss */
 .db {
   display: block; }
 
-/* line 46, ../sass/partials/_helpers.scss */
+/* line 50, ../sass/partials/_helpers.scss */
 .dib {
   display: inline-block !important; }
 
-/* line 50, ../sass/partials/_helpers.scss */
+/* line 54, ../sass/partials/_helpers.scss */
 .pull-left {
   float: left !important; }
 
-/* line 54, ../sass/partials/_helpers.scss */
+/* line 58, ../sass/partials/_helpers.scss */
 .pull-right {
   float: right !important; }
 
-/* line 58, ../sass/partials/_helpers.scss */
+/* line 62, ../sass/partials/_helpers.scss */
 .center {
   overflow: hidden !important; }
 
-/* line 62, ../sass/partials/_helpers.scss */
+/* line 66, ../sass/partials/_helpers.scss */
 .tac {
   text-align: center !important; }
 
-/* line 66, ../sass/partials/_helpers.scss */
+/* line 70, ../sass/partials/_helpers.scss */
 .tal {
   text-align: left !important; }
 
-/* line 70, ../sass/partials/_helpers.scss */
+/* line 74, ../sass/partials/_helpers.scss */
 .tar {
   text-align: right !important; }
 
-/* line 74, ../sass/partials/_helpers.scss */
+/* line 78, ../sass/partials/_helpers.scss */
 .nav, .nav_hor {
   list-style: none; }
 
-/* line 79, ../sass/partials/_helpers.scss */
+/* line 83, ../sass/partials/_helpers.scss */
 a {
   text-decoration: none; }
 
-/* line 83, ../sass/partials/_helpers.scss */
+/* line 87, ../sass/partials/_helpers.scss */
 .nav_hor {
   margin: 0;
   padding: 0;
@@ -180,79 +184,79 @@ a {
     .nav_hor li.last {
       padding-right: 0; }
 
-/* line 21, ../sass/partials/_icons.scss */
-.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .ico-nav1, .ico-nav2, .ico-nav3, .ico-nav4, .ico-nav5 {
+/* line 27, ../sass/partials/_icons.scss */
+.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .ico-arr-r {
   position: relative;
   display: inline-block; }
 
-/* line 27, ../sass/partials/_icons.scss */
+/* line 33, ../sass/partials/_icons.scss */
 .ico-fb {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 13px;
   display: block;
-  background-position: 0 -1127px;
+  background-position: 0 -1453px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 27, ../sass/partials/_icons.scss */
+/* line 33, ../sass/partials/_icons.scss */
 .ico-lock, .login-form__password:before {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 13px;
   display: block;
-  background-position: 0 -1078px;
+  background-position: 0 -1383px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 27, ../sass/partials/_icons.scss */
+/* line 33, ../sass/partials/_icons.scss */
 .ico-person, .login-form__email:before {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 17px;
   display: block;
-  background-position: 0 -901px;
+  background-position: 0 -1177px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 27, ../sass/partials/_icons.scss */
+/* line 33, ../sass/partials/_icons.scss */
 .ico-twitter {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 26px;
   width: 37px;
   display: block;
-  background-position: 0 -458px;
+  background-position: 0 -734px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 27, ../sass/partials/_icons.scss */
+/* line 33, ../sass/partials/_icons.scss */
 .ico-vk {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 36px;
   display: block;
-  background-position: 0 -648px;
+  background-position: 0 -924px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 27, ../sass/partials/_icons.scss */
+/* line 33, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 216px;
   width: 194px;
@@ -263,167 +267,245 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 27, ../sass/partials/_icons.scss */
+/* line 33, ../sass/partials/_icons.scss */
 .ico-arr-d, .select .textbox:after {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 10px;
   width: 15px;
   display: block;
-  background-position: 0 -1029px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-arr-l {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 16px;
-  width: 9px;
-  display: block;
-  background-position: 0 -1050px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-location {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 22px;
-  width: 17px;
-  display: block;
-  background-position: 0 -751px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-search, .value-list__form__submit:before {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 17px;
-  width: 16px;
-  display: block;
-  background-position: 0 -845px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-arr-d_red, .list__header__select .textbox:after {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 9px;
-  width: 13px;
-  display: block;
-  background-position: 0 -1107px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-gear {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 21px;
-  width: 20px;
-  display: block;
-  background-position: 0 -785px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-person_s {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 16px;
-  width: 15px;
-  display: block;
-  background-position: 0 -930px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-location_s {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 16px;
-  width: 12px;
-  display: block;
-  background-position: 0 -873px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-star_s {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 17px;
-  width: 17px;
-  display: block;
-  background-position: 0 -817px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-connect_s {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 14px;
-  width: 13px;
-  display: block;
-  background-position: 0 -957px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-arr-r_s {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 16px;
-  width: 9px;
-  display: block;
-  background-position: 0 -1166px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 27, ../sass/partials/_icons.scss */
-.ico-arr-r_b {
-  background-image: url('../images/sprite-s7e5645a841.png');
-  background-repeat: no-repeat;
-  height: 36px;
-  width: 13px;
-  display: block;
-  background-position: 0 -982px;
+  background-position: 0 -1305px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
 /* line 33, ../sass/partials/_icons.scss */
+.ico-arr-l {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 9px;
+  display: block;
+  background-position: 0 -1326px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-location {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 17px;
+  display: block;
+  background-position: 0 -1027px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-search, .value-list__form__submit:before {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 17px;
+  width: 16px;
+  display: block;
+  background-position: 0 -1121px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-arr-d_red, .list__header__select .textbox:after {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 9px;
+  width: 13px;
+  display: block;
+  background-position: 0 -1432px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-arr-d_red2 {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 9px;
+  width: 13px;
+  display: block;
+  background-position: 0 -1412px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-gear {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 20px;
+  display: block;
+  background-position: 0 -1061px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-person_s {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 15px;
+  display: block;
+  background-position: 0 -1206px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-location_s {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 12px;
+  display: block;
+  background-position: 0 -1149px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-star_s {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 17px;
+  width: 17px;
+  display: block;
+  background-position: 0 -1093px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-connect_s {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 13px;
+  display: block;
+  background-position: 0 -1233px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-arr-r_s {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 9px;
+  display: block;
+  background-position: 0 -1491px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-arr-r_b {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 36px;
+  width: 13px;
+  display: block;
+  background-position: 0 -1258px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.list_search__pin {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 57px;
+  display: block;
+  background-position: 0 -310px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.list_search__top {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 57px;
+  display: block;
+  background-position: 0 -379px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.list_search__like {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 57px;
+  display: block;
+  background-position: 0 -448px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.list_search__bookmark {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 58px;
+  width: 57px;
+  display: block;
+  background-position: 0 -517px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 33, ../sass/partials/_icons.scss */
+.ico-arr-r {
+  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 7px;
+  display: block;
+  background-position: 0 -1354px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 39, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
   margin: 0 auto; }
 
-/* line 37, ../sass/partials/_icons.scss */
+/* line 43, ../sass/partials/_icons.scss */
 .ico-logo-t {
   width: 194px;
   height: 28px;
@@ -433,7 +515,7 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 44, ../sass/partials/_icons.scss */
+  /* line 50, ../sass/partials/_icons.scss */
   .ico-logo-t:before {
     content: '';
     position: absolute;
@@ -441,131 +523,131 @@ a {
     bottom: 0;
     display: block; }
 
-/* line 63, ../sass/partials/_icons.scss */
+/* line 69, ../sass/partials/_icons.scss */
 .ico-nav1 {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 23px;
   width: 26px;
   display: block;
-  background-position: 0 -389px;
+  background-position: 0 -665px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 69, ../sass/partials/_icons.scss */
+  /* line 75, ../sass/partials/_icons.scss */
   .ico-nav1.active {
-    background-image: url('../images/sprite-s7e5645a841.png');
+    background-image: url('../images/sprite-sab66aa7bfd.png');
     background-repeat: no-repeat;
     height: 23px;
     width: 26px;
     display: block;
-    background-position: 0 -424px;
+    background-position: 0 -700px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 63, ../sass/partials/_icons.scss */
+/* line 69, ../sass/partials/_icons.scss */
 .ico-nav2 {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 24px;
   width: 23px;
   display: block;
-  background-position: 0 -681px;
+  background-position: 0 -957px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -11.5px; }
-  /* line 69, ../sass/partials/_icons.scss */
+  /* line 75, ../sass/partials/_icons.scss */
   .ico-nav2.active {
-    background-image: url('../images/sprite-s7e5645a841.png');
+    background-image: url('../images/sprite-sab66aa7bfd.png');
     background-repeat: no-repeat;
     height: 24px;
     width: 23px;
     display: block;
-    background-position: 0 -716px;
+    background-position: 0 -992px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 63, ../sass/partials/_icons.scss */
+/* line 69, ../sass/partials/_icons.scss */
 .ico-nav3 {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 19px;
   display: block;
-  background-position: 0 -572px;
+  background-position: 0 -848px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -9.5px; }
-  /* line 69, ../sass/partials/_icons.scss */
+  /* line 75, ../sass/partials/_icons.scss */
   .ico-nav3.active {
-    background-image: url('../images/sprite-s7e5645a841.png');
+    background-image: url('../images/sprite-sab66aa7bfd.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 19px;
     display: block;
-    background-position: 0 -610px;
+    background-position: 0 -886px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 63, ../sass/partials/_icons.scss */
+/* line 69, ../sass/partials/_icons.scss */
 .ico-nav4 {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 28px;
   width: 21px;
   display: block;
-  background-position: 0 -310px;
+  background-position: 0 -586px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -10.5px; }
-  /* line 69, ../sass/partials/_icons.scss */
+  /* line 75, ../sass/partials/_icons.scss */
   .ico-nav4.active {
-    background-image: url('../images/sprite-s7e5645a841.png');
+    background-image: url('../images/sprite-sab66aa7bfd.png');
     background-repeat: no-repeat;
     height: 28px;
     width: 21px;
     display: block;
-    background-position: 0 -350px;
+    background-position: 0 -626px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 63, ../sass/partials/_icons.scss */
+/* line 69, ../sass/partials/_icons.scss */
 .ico-nav5 {
-  background-image: url('../images/sprite-s7e5645a841.png');
+  background-image: url('../images/sprite-sab66aa7bfd.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 26px;
   display: block;
-  background-position: 0 -496px;
+  background-position: 0 -772px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 69, ../sass/partials/_icons.scss */
+  /* line 75, ../sass/partials/_icons.scss */
   .ico-nav5.active {
-    background-image: url('../images/sprite-s7e5645a841.png');
+    background-image: url('../images/sprite-sab66aa7bfd.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 26px;
     display: block;
-    background-position: 0 -534px;
+    background-position: 0 -810px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
@@ -649,17 +731,24 @@ input[type=search] {
     font-size: 22px; }
 
 /* line 22, ../sass/partials/_header.scss */
+.header__title {
+  font-size: 22px;
+  display: block;
+  height: 47px;
+  line-height: 47px; }
+
+/* line 28, ../sass/partials/_header.scss */
 .header__ico_l, .header__ico_r {
   position: absolute;
   left: 18px;
   top: 15px; }
 
-/* line 27, ../sass/partials/_header.scss */
+/* line 33, ../sass/partials/_header.scss */
 .header__ico_r {
   left: auto;
   right: 18px; }
 
-/* line 32, ../sass/partials/_header.scss */
+/* line 38, ../sass/partials/_header.scss */
 .header_fixed {
   position: fixed;
   width: 100%;
@@ -794,14 +883,17 @@ input[type=search] {
     position: absolute;
     top: 12px;
     right: 20px; }
+    /* line 24, ../sass/partials/_value-list.scss */
+    .show-on-map i.ico-arr-d_red2 {
+      top: 20px; }
 
-/* line 27, ../sass/partials/_value-list.scss */
+/* line 30, ../sass/partials/_value-list.scss */
 .value-list__form {
   position: absolute;
   width: 100%;
   bottom: 0;
   margin: 0 0 0 -18px; }
-  /* line 33, ../sass/partials/_value-list.scss */
+  /* line 36, ../sass/partials/_value-list.scss */
   .value-list__form input[type=text] {
     width: 100%;
     height: 47px;
@@ -836,7 +928,7 @@ input[type=search] {
       color: #5c646a !important;
       line-height: 21px !important; }
 
-/* line 45, ../sass/partials/_value-list.scss */
+/* line 48, ../sass/partials/_value-list.scss */
 .value-list__form__submit {
   position: absolute;
   left: 0;
@@ -845,7 +937,7 @@ input[type=search] {
   border: 0;
   width: 55px;
   height: 47px; }
-  /* line 54, ../sass/partials/_value-list.scss */
+  /* line 57, ../sass/partials/_value-list.scss */
   .value-list__form__submit:before {
     content: '';
     position: absolute;
@@ -853,7 +945,7 @@ input[type=search] {
     top: 15px;
     display: block;
     z-index: 199; }
-  /* line 63, ../sass/partials/_value-list.scss */
+  /* line 66, ../sass/partials/_value-list.scss */
   .value-list__form__submit input {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
@@ -866,23 +958,23 @@ input[type=search] {
     z-index: 200;
     cursor: pointer; }
 
-/* line 76, ../sass/partials/_value-list.scss */
+/* line 79, ../sass/partials/_value-list.scss */
 .list-wrapper {
   overflow: hidden; }
 
-/* line 80, ../sass/partials/_value-list.scss */
+/* line 83, ../sass/partials/_value-list.scss */
 .list__header {
   padding: 0 13px;
   height: 57px;
   border-bottom: 1px solid #e5e5e5; }
-  /* line 85, ../sass/partials/_value-list.scss */
+  /* line 88, ../sass/partials/_value-list.scss */
   .list__header h2 {
     color: #d45657;
     font-size: 15px;
     line-height: 57px;
     text-transform: uppercase; }
 
-/* line 94, ../sass/partials/_value-list.scss */
+/* line 97, ../sass/partials/_value-list.scss */
 .list__header__select .textbox {
   width: 70px;
   background: none;
@@ -892,11 +984,66 @@ input[type=search] {
   margin: 0;
   height: 57px;
   line-height: 57px; }
-  /* line 103, ../sass/partials/_value-list.scss */
+  /* line 106, ../sass/partials/_value-list.scss */
   .list__header__select .textbox:after {
     top: 25px; }
 
-/* line 117, ../sass/partials/_value-list.scss */
+/* line 118, ../sass/partials/_value-list.scss */
+.list.list_search .list__item__main {
+  height: 68px; }
+/* line 121, ../sass/partials/_value-list.scss */
+.list.list_search .list__item__secondary {
+  position: static;
+  height: 0;
+  width: 100%;
+  background: none !important;
+  overflow: hidden;
+  padding: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+/* line 130, ../sass/partials/_value-list.scss */
+.list.list_search .opened {
+  -webkit-transform: translateX(0px);
+  -moz-transform: translateX(0px);
+  -ms-transform: translateX(0px);
+  -o-transform: translateX(0px);
+  transform: translateX(0px); }
+  /* line 132, ../sass/partials/_value-list.scss */
+  .list.list_search .opened .list__item__secondary {
+    height: 92px;
+    padding: 4px 0 13px 0; }
+/* line 137, ../sass/partials/_value-list.scss */
+.list.list_search .list__item__info {
+  padding: 0 0 0 19px; }
+/* line 140, ../sass/partials/_value-list.scss */
+.list.list_search .list__item__title {
+  padding: 0 0 7px 0; }
+/* line 143, ../sass/partials/_value-list.scss */
+.list.list_search .ico-arr-r {
+  position: absolute;
+  right: 10px;
+  top: 37px; }
+/* line 148, ../sass/partials/_value-list.scss */
+.list.list_search .list__item__address {
+  padding: 0 10px 0 0; }
+
+/* line 154, ../sass/partials/_value-list.scss */
+.list_search__ico {
+  float: left;
+  top: 3px; }
+
+/* line 159, ../sass/partials/_value-list.scss */
+.list__item__secondary__distance {
+  float: left;
+  display: block;
+  width: 88px;
+  text-align: center;
+  color: #d35557;
+  font-size: 18px; }
+
+/* line 168, ../sass/partials/_value-list.scss */
 .list__item {
   border-bottom: 1px solid #e5e5e5;
   position: relative;
@@ -906,10 +1053,10 @@ input[type=search] {
   -ms-transform: translateX(0);
   -o-transform: translateX(0);
   transform: translateX(0); }
-  /* line 123, ../sass/partials/_value-list.scss */
+  /* line 174, ../sass/partials/_value-list.scss */
   .list__item:nth-child(even) .list__item__secondary {
     background: #91d23e; }
-  /* line 127, ../sass/partials/_value-list.scss */
+  /* line 178, ../sass/partials/_value-list.scss */
   .list__item.opened {
     -webkit-transform: translateX(-159px);
     -moz-transform: translateX(-159px);
@@ -917,39 +1064,39 @@ input[type=search] {
     -o-transform: translateX(-159px);
     transform: translateX(-159px); }
 
-/* line 132, ../sass/partials/_value-list.scss */
+/* line 184, ../sass/partials/_value-list.scss */
 .list__item__main {
   padding: 12px 12px 8px 12px;
   overflow: hidden; }
-  /* line 135, ../sass/partials/_value-list.scss */
+  /* line 187, ../sass/partials/_value-list.scss */
   .list__item__main img {
     float: left; }
 
-/* line 140, ../sass/partials/_value-list.scss */
+/* line 192, ../sass/partials/_value-list.scss */
 .list__item__info {
   padding: 0 0 0 10px;
   overflow: hidden; }
 
-/* line 145, ../sass/partials/_value-list.scss */
+/* line 197, ../sass/partials/_value-list.scss */
 .list__item__title {
   color: #353f47;
   font-size: 17px;
   padding: 0 0 10px 0;
   overflow: hidden; }
 
-/* line 152, ../sass/partials/_value-list.scss */
+/* line 204, ../sass/partials/_value-list.scss */
 .list__item__distance {
   color: #d35557 !important;
   font-size: 15px !important;
   float: right; }
 
-/* line 160, ../sass/partials/_value-list.scss */
+/* line 212, ../sass/partials/_value-list.scss */
 .list__item__address p {
   color: #353f47;
   font-size: 12px;
   line-height: 1.2; }
 
-/* line 168, ../sass/partials/_value-list.scss */
+/* line 220, ../sass/partials/_value-list.scss */
 .list__item__rate {
   color: #353f47;
   font-size: 12px;
@@ -957,7 +1104,7 @@ input[type=search] {
   overflow: hidden;
   padding: 8px 0 0; }
 
-/* line 176, ../sass/partials/_value-list.scss */
+/* line 228, ../sass/partials/_value-list.scss */
 .rate {
   background-image: url('../images/sprite-stars-s4e42450f71.png');
   background-repeat: no-repeat;
@@ -972,7 +1119,7 @@ input[type=search] {
   background-repeat: repeat-x;
   display: block;
   width: 65px; }
-  /* line 181, ../sass/partials/_value-list.scss */
+  /* line 233, ../sass/partials/_value-list.scss */
   .rate i {
     background-image: url('../images/sprite-stars-s4e42450f71.png');
     background-repeat: no-repeat;
@@ -987,7 +1134,7 @@ input[type=search] {
     background-repeat: repeat-x;
     display: block; }
 
-/* line 192, ../sass/partials/_value-list.scss */
+/* line 244, ../sass/partials/_value-list.scss */
 .list__item__secondary {
   position: absolute;
   width: 163px;
@@ -998,20 +1145,66 @@ input[type=search] {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 21px 0  0 12px;
+  padding: 21px 0 0 12px;
   color: #fff; }
-  /* line 202, ../sass/partials/_value-list.scss */
+  /* line 254, ../sass/partials/_value-list.scss */
   .list__item__secondary h4 {
     font-size: 17px;
     padding-bottom: 13px; }
-  /* line 206, ../sass/partials/_value-list.scss */
+  /* line 258, ../sass/partials/_value-list.scss */
   .list__item__secondary p, .list__item__secondary time {
     font-size: 12px;
     line-height: 1.3;
     display: block; }
-  /* line 211, ../sass/partials/_value-list.scss */
+  /* line 263, ../sass/partials/_value-list.scss */
   .list__item__secondary time {
     font-family: "kelson_sans_rubold"; }
+
+/* line 268, ../sass/partials/_value-list.scss */
+.slider {
+  position: relative;
+  height: 28px;
+  margin: 1px 0 12px 0; }
+
+/* line 274, ../sass/partials/_value-list.scss */
+.slider__handle {
+  position: absolute;
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+  background-clip: padding-box;
+  background-color: #fff;
+  box-shadow: 0 3px 1px 1px rgba(0, 0, 1, 0.05), 0 0 1.5px rgba(0, 0, 0, 0.03), inset 0 0 1px rgba(0, 0, 0, 0.05);
+  z-index: 100;
+  border: 1px solid rgba(0, 0, 0, 0.05); }
+
+/* line 287, ../sass/partials/_value-list.scss */
+.slider__progress {
+  width: 100%;
+  height: 2px;
+  border-radius: 22px;
+  background-clip: padding-box;
+  background-color: #b4b4b6;
+  position: relative;
+  top: 50%;
+  margin-top: -1px; }
+  /* line 296, ../sass/partials/_value-list.scss */
+  .slider__progress i {
+    display: block;
+    background-color: #d35557;
+    height: 2px; }
+
+/* line 304, ../sass/partials/_value-list.scss */
+.list__item__slider {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 14px 0 0; }
+  /* line 308, ../sass/partials/_value-list.scss */
+  .list__item__slider .btn_black {
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px; }
 
 /* line 1, ../sass/partials/_profile.scss */
 .profile {
