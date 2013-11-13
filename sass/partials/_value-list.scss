@@ -236,6 +236,17 @@
     display: block;
   }
 }
+.rate_w {
+  @include sprite-background(star-empty, $sprites-stars_w, 16px);
+  background-repeat: repeat-x;
+  display: block;
+  width: 80px;
+  i {
+    @include sprite-background(star-full, $sprites-stars_w, 16px);
+    background-repeat: repeat-x;
+    display: block;
+  }
+}
 
 .list__item__rate__info {
 

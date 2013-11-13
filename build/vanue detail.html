@@ -8,17 +8,48 @@
     <link href="css/style.css" rel="stylesheet"/>
 </head>
     <body class="white-bg">
-<div class="wrapper wrapper_no-pad profile">
+<div class="wrapper wrapper_no-pad val-det">
     <header class="header header_fixed">
         <div class="clearfix">
             <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
+
             <h2>Тандыр</h2>
-            <a class="ico-share header__ico_r" href="javascript:void(0);"></a>
+            <a class="ico-share header__ico_r2" href="javascript:void(0);"></a>
             <a class="ico-like header__ico_r" href="javascript:void(0);"></a>
         </div>
     </header>
     <div class="content wrapper_no-pad">
+        <div class="val-det-info">
+            <div class="val-det-btn">
+                <i class="ico-photo"></i>
+                24
+            </div>
+            <div class="val-det-btn_entr">
+                <i class="ico-door"></i>
+                5
+            </div>
+            <div class="val-det-btn_i"></div>
+            <img class="val-det-info-bg" src="http://placehold.it/320x130" alt=""/>
+        </div>
+        <div class="vd-map">
+            <div class="vd-map-nav">
+                <address class="pull-left">
+                    <i class="ico-located"></i>
+                    ул. наб. Победы, 9Б,
+                    Днепропетровск
+                </address>
 
+                <div class="vd-map-rate pull-right">
+                    <div class="rate_w pull-right"><i style="width:80%"></i></div>
+                    <span class="pull-right">9.0 из 10 (43 reviews)</span>
+                </div>
+
+            </div>
+            <div class="vd-map-area">
+                <div class="google-maps-holder"></div>
+                <div class="vd-map-close"><i class="ico-arr-d"></i></div>
+            </div>
+        </div>
         <ul class="profile__restaurants">
             <li>
                 pins
@@ -33,17 +64,40 @@
                 <span>45</span>
             </li>
         </ul>
+        <div class="list list_search">
+            <h3>Спецпредложение</h3>
+
+            <div class="list__item ">
+                <i class=" list_search__ico ico-lunch"></i>
+
+                <div class="list__item__info">
+                    <h2 class="list__item__title">
+                        Бизнес-ланч
+                    </h2>
+                    <span>49 грн</span>
+                    <i class="ico-arr-r"></i>
+                </div>
+            </div>
+            <div class="list__item ">
+                <i class=" list_search__ico ico-discount"></i>
+
+                <div class="list__item__info">
+                    <h2 class="list__item__title">
+                        Скидка
+                    </h2>
+                    <span>на гриль-меню -25%</span>
+                    <i class="ico-arr-r"></i>
+                </div>
+            </div>
+        </div>
 
     </div>
-
-
     <a class="btn_red float_bottom" href="javascript:void(0);"><i class="ico-check"></i> Забронировать</a>
-
 </div>
 <script src="js/vendors/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".list__item, .profile__user__row_soc").on("click",function(){
+        $(".list__item, .profile__user__row_soc, .vd-map").on("click",function(){
             $(this).toggleClass("opened")
         })
     })

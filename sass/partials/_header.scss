@@ -35,6 +35,10 @@
   left: auto;
   right: $headerPaddingLR;
 }
+.header__ico_r2{
+  @extend .header__ico_r;
+  right: 54px;
+}
 .header_fixed{
   position: fixed;
   width: 100%;
