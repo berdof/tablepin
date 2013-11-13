@@ -19,7 +19,7 @@ body {
 }
 
 .wrapper_pb-footer{
-  padding-bottom: 49  px !important;
+  padding-bottom: 49px !important;
 }
 
 a{
@@ -90,3 +90,16 @@ a{
   overflow: visible;
 }
 
+.float_bottom{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.ios7{
+   margin-top: 20px;
+  .header{
+    top: 20px;
+  }
+}

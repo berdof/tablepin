@@ -21,7 +21,14 @@ $ico-list: ico-fb,
               list_search__top,
               list_search__like,
               list_search__bookmark,
-              ico-arr-r
+              ico-arr-r,
+              ico-check,
+              ico-share,
+              ico-like,
+              ico-info,
+              ico-photo,
+              ico-door,
+              ico-located
 ;
 
 %ico-item{
@@ -58,11 +65,11 @@ $ico-list: ico-fb,
 }
 
 $icons-nav:
-            ico-nav1,
-            ico-nav2,
-            ico-nav3,
-            ico-nav4,
-            ico-nav5;
+            ico-nav-message,
+            ico-nav-search,
+            ico-nav-map,
+            ico-nav-top,
+            ico-nav-profile;
 
 @each $item in $icons-nav {
   $selector: unquote(".#{$item}");

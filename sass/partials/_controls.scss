@@ -11,12 +11,17 @@
   width: 100%;
 }
 
-.btn_black{
+.btn_black {
   @extend .btn;
   background-color: #364049;
 }
 
-
+.btn_red {
+  @extend .btn;
+  background-color: #d45657;
+  font-size: 18px;
+  font-weight: 400;
+}
 
 .textbox,
 input[type=text],
@@ -35,15 +40,15 @@ input[type=search] {
   display: block;
   width: 100%;
   border-radius: 0;
-  transition:all 0.3s;
+  transition: all 0.3s;
   &::-webkit-input-placeholder {
     color: #fff !important;
   }
-  &:focus{
-    background-color: darken(#e37171,3%);
+  &:focus {
+    background-color: darken(#e37171, 3%);
   }
 
-  &.error{
+  &.error {
 
   }
 

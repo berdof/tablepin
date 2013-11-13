@@ -1,0 +1,37 @@
+<%= render :partial => "views/base/top", :locals => {:bodyClass => "white-bg"} %>
+<div class="wrapper wrapper_no-pad profile">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
+            <h2>Тандыр</h2>
+            <a class="ico-share header__ico_r" href="javascript:void(0);"></a>
+            <a class="ico-like header__ico_r" href="javascript:void(0);"></a>
+        </div>
+    </header>
+    <div class="content wrapper_no-pad">
+
+        <ul class="profile__restaurants">
+            <li>
+                pins
+                <span>12</span>
+            </li>
+            <li>
+                restaurants
+                <span>7</span>
+            </li>
+            <li>
+                rating
+                <span>45</span>
+            </li>
+        </ul>
+
+    </div>
+
+
+    <a class="btn_red float_bottom" href="javascript:void(0);"><i class="ico-check"></i> Забронировать</a>
+
+</div>
+<%= render :partial => "views/base/bottom" %>
+
+
+

@@ -95,7 +95,7 @@ body {
 
 /* line 21, ../sass/partials/_helpers.scss */
 .wrapper_pb-footer {
-  padding-bottom: 49  px !important; }
+  padding-bottom: 49px !important; }
 
 /* line 25, ../sass/partials/_helpers.scss */
 a {
@@ -184,79 +184,93 @@ a {
     .nav_hor li.last {
       padding-right: 0; }
 
-/* line 27, ../sass/partials/_icons.scss */
-.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .ico-arr-r {
+/* line 93, ../sass/partials/_helpers.scss */
+.float_bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
+
+/* line 100, ../sass/partials/_helpers.scss */
+.ios7 {
+  margin-top: 20px; }
+  /* line 102, ../sass/partials/_helpers.scss */
+  .ios7 .header {
+    top: 20px; }
+
+/* line 34, ../sass/partials/_icons.scss */
+.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .ico-arr-r, .ico-check, .ico-share, .ico-like, .ico-info, .ico-photo, .ico-door, .ico-located {
   position: relative;
   display: inline-block; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-fb {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 13px;
   display: block;
-  background-position: 0 -1453px;
+  background-position: 0 -1608px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-lock, .login-form__password:before {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 13px;
   display: block;
-  background-position: 0 -1383px;
+  background-position: 0 -1538px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-person, .login-form__email:before {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 17px;
   display: block;
-  background-position: 0 -1177px;
+  background-position: 0 -1301px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-twitter {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 26px;
   width: 37px;
   display: block;
-  background-position: 0 -734px;
+  background-position: 0 -766px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-vk {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 36px;
   display: block;
-  background-position: 0 -924px;
+  background-position: 0 -956px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 216px;
   width: 194px;
@@ -267,178 +281,178 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-arr-d, .select .textbox:after {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 10px;
   width: 15px;
   display: block;
-  background-position: 0 -1305px;
+  background-position: 0 -1461px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-arr-l {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -1326px;
+  background-position: 0 -1482px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-location {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 17px;
   display: block;
-  background-position: 0 -1027px;
+  background-position: 0 -1090px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-search, .value-list__form__submit:before {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 16px;
   display: block;
-  background-position: 0 -1121px;
+  background-position: 0 -1246px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-arr-d_red, .list__header__select .textbox:after {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -1432px;
+  background-position: 0 -1588px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-arr-d_red2 {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -1412px;
+  background-position: 0 -1567px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-gear {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 20px;
   display: block;
-  background-position: 0 -1061px;
+  background-position: 0 -1156px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-person_s {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 15px;
   display: block;
-  background-position: 0 -1206px;
+  background-position: 0 -1330px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-location_s {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 12px;
   display: block;
-  background-position: 0 -1149px;
+  background-position: 0 -1274px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-star_s {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 17px;
   display: block;
-  background-position: 0 -1093px;
+  background-position: 0 -1188px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-connect_s {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 14px;
   width: 13px;
   display: block;
-  background-position: 0 -1233px;
+  background-position: 0 -1388px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-arr-r_s {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -1491px;
+  background-position: 0 -1647px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-arr-r_b {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 36px;
   width: 13px;
   display: block;
-  background-position: 0 -1258px;
+  background-position: 0 -1413px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .list_search__pin {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -449,9 +463,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .list_search__top {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -462,9 +476,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .list_search__like {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -475,9 +489,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .list_search__bookmark {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -488,24 +502,115 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 33, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
 .ico-arr-r {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 7px;
   display: block;
-  background-position: 0 -1354px;
+  background-position: 0 -1509px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 39, ../sass/partials/_icons.scss */
+/* line 40, ../sass/partials/_icons.scss */
+.ico-check {
+  background-image: url('../images/sprite-s32a602a881.png');
+  background-repeat: no-repeat;
+  height: 11px;
+  width: 13px;
+  display: block;
+  background-position: 0 -1674px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 40, ../sass/partials/_icons.scss */
+.ico-share {
+  background-image: url('../images/sprite-s32a602a881.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 17px;
+  display: block;
+  background-position: 0 -1357px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 40, ../sass/partials/_icons.scss */
+.ico-like {
+  background-image: url('../images/sprite-s32a602a881.png');
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 21px;
+  display: block;
+  background-position: 0 -1124px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 40, ../sass/partials/_icons.scss */
+.ico-info {
+  background-image: url('../images/sprite-s32a602a881.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 19px;
+  display: block;
+  background-position: 0 -989px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 40, ../sass/partials/_icons.scss */
+.ico-photo {
+  background-image: url('../images/sprite-s32a602a881.png');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 23px;
+  display: block;
+  background-position: 0 -1216px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 40, ../sass/partials/_icons.scss */
+.ico-door {
+  background-image: url('../images/sprite-s32a602a881.png');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 14px;
+  display: block;
+  background-position: 0 -1696px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 40, ../sass/partials/_icons.scss */
+.ico-located {
+  background-image: url('../images/sprite-s32a602a881.png');
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 26px;
+  display: block;
+  background-position: 0 -734px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 46, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
   margin: 0 auto; }
 
-/* line 43, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-logo-t {
   width: 194px;
   height: 28px;
@@ -515,7 +620,7 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 50, ../sass/partials/_icons.scss */
+  /* line 57, ../sass/partials/_icons.scss */
   .ico-logo-t:before {
     content: '';
     position: absolute;
@@ -523,9 +628,9 @@ a {
     bottom: 0;
     display: block; }
 
-/* line 69, ../sass/partials/_icons.scss */
-.ico-nav1 {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+/* line 76, ../sass/partials/_icons.scss */
+.ico-nav-message {
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 23px;
   width: 26px;
@@ -536,9 +641,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 75, ../sass/partials/_icons.scss */
-  .ico-nav1.active {
-    background-image: url('../images/sprite-sab66aa7bfd.png');
+  /* line 82, ../sass/partials/_icons.scss */
+  .ico-nav-message.active {
+    background-image: url('../images/sprite-s32a602a881.png');
     background-repeat: no-repeat;
     height: 23px;
     width: 26px;
@@ -549,61 +654,61 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 69, ../sass/partials/_icons.scss */
-.ico-nav2 {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+/* line 76, ../sass/partials/_icons.scss */
+.ico-nav-search {
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 24px;
   width: 23px;
   display: block;
-  background-position: 0 -957px;
+  background-position: 0 -1020px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -11.5px; }
-  /* line 75, ../sass/partials/_icons.scss */
-  .ico-nav2.active {
-    background-image: url('../images/sprite-sab66aa7bfd.png');
+  /* line 82, ../sass/partials/_icons.scss */
+  .ico-nav-search.active {
+    background-image: url('../images/sprite-s32a602a881.png');
     background-repeat: no-repeat;
     height: 24px;
     width: 23px;
     display: block;
-    background-position: 0 -992px;
+    background-position: 0 -1055px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 69, ../sass/partials/_icons.scss */
-.ico-nav3 {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+/* line 76, ../sass/partials/_icons.scss */
+.ico-nav-map {
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 19px;
   display: block;
-  background-position: 0 -848px;
+  background-position: 0 -880px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -9.5px; }
-  /* line 75, ../sass/partials/_icons.scss */
-  .ico-nav3.active {
-    background-image: url('../images/sprite-sab66aa7bfd.png');
+  /* line 82, ../sass/partials/_icons.scss */
+  .ico-nav-map.active {
+    background-image: url('../images/sprite-s32a602a881.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 19px;
     display: block;
-    background-position: 0 -886px;
+    background-position: 0 -918px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 69, ../sass/partials/_icons.scss */
-.ico-nav4 {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+/* line 76, ../sass/partials/_icons.scss */
+.ico-nav-top {
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 28px;
   width: 21px;
@@ -614,9 +719,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -10.5px; }
-  /* line 75, ../sass/partials/_icons.scss */
-  .ico-nav4.active {
-    background-image: url('../images/sprite-sab66aa7bfd.png');
+  /* line 82, ../sass/partials/_icons.scss */
+  .ico-nav-top.active {
+    background-image: url('../images/sprite-s32a602a881.png');
     background-repeat: no-repeat;
     height: 28px;
     width: 21px;
@@ -627,34 +732,34 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 69, ../sass/partials/_icons.scss */
-.ico-nav5 {
-  background-image: url('../images/sprite-sab66aa7bfd.png');
+/* line 76, ../sass/partials/_icons.scss */
+.ico-nav-profile {
+  background-image: url('../images/sprite-s32a602a881.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 26px;
   display: block;
-  background-position: 0 -772px;
+  background-position: 0 -804px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 75, ../sass/partials/_icons.scss */
-  .ico-nav5.active {
-    background-image: url('../images/sprite-sab66aa7bfd.png');
+  /* line 82, ../sass/partials/_icons.scss */
+  .ico-nav-profile.active {
+    background-image: url('../images/sprite-s32a602a881.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 26px;
     display: block;
-    background-position: 0 -810px;
+    background-position: 0 -842px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
 /* line 1, ../sass/partials/_controls.scss */
-.btn, .btn_black {
+.btn, .btn_black, .btn_red {
   border: 0;
   height: 48px;
   line-height: 48px;
@@ -670,7 +775,13 @@ a {
 .btn_black {
   background-color: #364049; }
 
-/* line 26, ../sass/partials/_controls.scss */
+/* line 19, ../sass/partials/_controls.scss */
+.btn_red {
+  background-color: #d45657;
+  font-size: 18px;
+  font-weight: 400; }
+
+/* line 31, ../sass/partials/_controls.scss */
 .textbox,
 input[type=text],
 input[type=email],
@@ -691,7 +802,7 @@ input[type=search] {
   width: 100%;
   border-radius: 0;
   transition: all 0.3s; }
-  /* line 39, ../sass/partials/_controls.scss */
+  /* line 44, ../sass/partials/_controls.scss */
   .textbox::-webkit-input-placeholder,
   input[type=text]::-webkit-input-placeholder,
   input[type=email]::-webkit-input-placeholder,
@@ -699,7 +810,7 @@ input[type=search] {
   input[type=tel]::-webkit-input-placeholder,
   input[type=search]::-webkit-input-placeholder {
     color: #fff !important; }
-  /* line 42, ../sass/partials/_controls.scss */
+  /* line 47, ../sass/partials/_controls.scss */
   .textbox:focus,
   input[type=text]:focus,
   input[type=email]:focus,
@@ -1263,7 +1374,7 @@ input[type=search] {
 h2.profile__user__row {
   font-size: 16px; }
 
-/* line 57, ../sass/partials/_profile.scss */
+/* line 58, ../sass/partials/_profile.scss */
 .profile__user__row_soc {
   height: 38px;
   position: relative;
@@ -1272,39 +1383,39 @@ h2.profile__user__row {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   transition: left 0.3s; }
-  /* line 63, ../sass/partials/_profile.scss */
+  /* line 64, ../sass/partials/_profile.scss */
   .profile__user__row_soc.opened {
     left: -140px; }
-  /* line 66, ../sass/partials/_profile.scss */
+  /* line 67, ../sass/partials/_profile.scss */
   .profile__user__row_soc .ico-arr-r_s {
     position: absolute;
     right: 13px;
     left: auto;
     top: 10px; }
 
-/* line 74, ../sass/partials/_profile.scss */
+/* line 75, ../sass/partials/_profile.scss */
 .profile__user__row_soc__nav {
   position: absolute;
   height: 38px;
   background: #d45657;
   top: -1px;
   right: -140px; }
-  /* line 80, ../sass/partials/_profile.scss */
+  /* line 81, ../sass/partials/_profile.scss */
   .profile__user__row_soc__nav li {
     float: left;
     height: 38px;
     line-height: 38px;
     margin: 0 10px; }
-  /* line 86, ../sass/partials/_profile.scss */
+  /* line 87, ../sass/partials/_profile.scss */
   .profile__user__row_soc__nav a {
     display: inline-block;
     vertical-align: middle; }
 
-/* line 92, ../sass/partials/_profile.scss */
+/* line 93, ../sass/partials/_profile.scss */
 .profile__restaurants {
   overflow: hidden;
   border-bottom: 2.5px solid #444; }
-  /* line 95, ../sass/partials/_profile.scss */
+  /* line 96, ../sass/partials/_profile.scss */
   .profile__restaurants li {
     float: left;
     width: 33.3333%;
@@ -1317,36 +1428,36 @@ h2.profile__user__row {
     color: #d35557;
     font-size: 12px;
     padding: 8px 0 0; }
-    /* line 105, ../sass/partials/_profile.scss */
+    /* line 106, ../sass/partials/_profile.scss */
     .profile__restaurants li span {
       color: #d35557;
       font-size: 36px;
       display: block;
       padding: 5px 0 0; }
-    /* line 111, ../sass/partials/_profile.scss */
+    /* line 112, ../sass/partials/_profile.scss */
     .profile__restaurants li:first-child {
       border-left: 0; }
 
-/* line 121, ../sass/partials/_profile.scss */
+/* line 122, ../sass/partials/_profile.scss */
 .profile__feedback__row {
   border-bottom: 2px solid #fff;
   background: #353535;
   overflow: hidden;
   color: #fff; }
 
-/* line 128, ../sass/partials/_profile.scss */
+/* line 129, ../sass/partials/_profile.scss */
 .profile__feedback__img {
   width: 50%;
   height: 113px;
   float: left;
   border-right: 2px solid #fff;
   box-sizing: border-box; }
-  /* line 135, ../sass/partials/_profile.scss */
+  /* line 136, ../sass/partials/_profile.scss */
   .profile__feedback__img img {
     width: 100%;
     height: 100%; }
 
-/* line 141, ../sass/partials/_profile.scss */
+/* line 142, ../sass/partials/_profile.scss */
 .profile__feedback__info {
   overflow: hidden;
   height: 113px;
@@ -1358,13 +1469,13 @@ h2.profile__user__row {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 21px 33px 0 0; }
-  /* line 150, ../sass/partials/_profile.scss */
+  /* line 151, ../sass/partials/_profile.scss */
   .profile__feedback__info span {
     display: block;
     font-size: 18px;
     font-weight: 300;
     padding-bottom: 5px; }
-  /* line 156, ../sass/partials/_profile.scss */
+  /* line 157, ../sass/partials/_profile.scss */
   .profile__feedback__info i {
     position: absolute;
     right: 12px;
