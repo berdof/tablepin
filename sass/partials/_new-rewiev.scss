@@ -1,0 +1,96 @@
+.new-rewiev {
+  padding-top: 60px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important;
+  .content{
+    padding: 0;
+    @include border-radius(0);
+  }
+  .select {
+    margin-bottom: 3px;
+    .textbox {
+      background: #434343;
+      padding-left: 19px;
+    }
+  }
+  .float_bottom {
+    border-top: 0;
+  }
+}
+
+.new-rewiev-title {
+  color: #818181;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.new-rewiev-rate {
+  padding: 0 15px 30px 15px;
+}
+
+.new-rewiev-rate-item {
+  overflow: hidden;
+  padding-bottom: 20px;
+  p {
+    float: left;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 18px;
+    &.red {
+      float: right;
+      color: #d45657;
+    }
+  }
+  .rate {
+    float: right;
+  }
+  .slider {
+    margin-top: 15px;
+  }
+}
+
+.new-rewiev-rate_2 {
+  @extend .new-rewiev-rate;
+  .new-rewiev-rate-item {
+    padding-bottom: 10px;
+  }
+}
+
+.new-rewiev-cafe{
+  overflow: hidden;
+  padding: 0 0 20px 18px;
+  .ico-lunch2{
+    float: left;
+    margin: 0 18px 0 0;
+  }
+  h3{
+    color: #e37171;
+    font-size: 19px;
+    padding-bottom: 2px;
+  }
+  h4{
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+}
+
+.new-rewiev-cafe-info{
+  overflow: hidden;
+  color: #9a9a9a;
+  font-size: 12px;
+  line-height: 1.2;
+  i{
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 1px;
+  }
+  div{
+    width: 105px;
+    float: left;
+    position: relative;
+    top: 1px;
+    padding: 0 14px 0 0;
+  }
+}

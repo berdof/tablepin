@@ -15,8 +15,6 @@
 @import "partials/sprites";
 
 
-
-
 @import "partials/icons";
 @import "partials/controls";
 
@@ -28,25 +26,11 @@
 @import "partials/value-list" ;
 @import "partials/profile" ;
 @import "partials/value-details" ;
+@import "partials/new-rewiev" ;
 
 
 
 @import "partials/footer" ;
-
-
-.debug{
-  .header,
-  .footer{
-    position: absolute;
-  }
-  width:320px;
-  height: 548px;
-  position: relative;
-  @include box-sizing(border-box);
-  border: 1px solid #000;
-}
-
-
 
 
 

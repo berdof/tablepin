@@ -72,16 +72,16 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-weight: normal;
   font-style: normal; }
 
-/* line 2, ../sass/partials/_helpers.scss */
+/* line 1, ../sass/partials/_helpers.scss */
 body {
   font-family: "kelson_sans_ruregular";
   color: black;
   background: #d45657; }
-  /* line 6, ../sass/partials/_helpers.scss */
+  /* line 5, ../sass/partials/_helpers.scss */
   body.white-bg {
     background: #fff; }
 
-/* line 11, ../sass/partials/_helpers.scss */
+/* line 10, ../sass/partials/_helpers.scss */
 .wrapper, .content {
   padding: 0 15px;
   -webkit-box-sizing: border-box;
@@ -101,14 +101,14 @@ body {
 a {
   color: #364049; }
 
-/* line 29, ../sass/partials/_helpers.scss */
+/* line 30, ../sass/partials/_helpers.scss */
 * {
   outline: none;
   -webkit-font-smoothing: antialiased !important;
   -webkit-appearance: none;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 37, ../sass/partials/_helpers.scss */
+/* line 38, ../sass/partials/_helpers.scss */
 .clearfix:after, .wrapper:after, .content:after, .nav:after, .nav_hor:after, .header:after, .value-list__form:after, .list__header:after, .profile__user__row:after, .val-det-info:after {
   visibility: hidden;
   display: block;
@@ -116,47 +116,47 @@ a {
   clear: both;
   height: 0; }
 
-/* line 46, ../sass/partials/_helpers.scss */
+/* line 47, ../sass/partials/_helpers.scss */
 .db {
   display: block; }
 
-/* line 50, ../sass/partials/_helpers.scss */
+/* line 51, ../sass/partials/_helpers.scss */
 .dib {
   display: inline-block !important; }
 
-/* line 54, ../sass/partials/_helpers.scss */
+/* line 55, ../sass/partials/_helpers.scss */
 .pull-left {
   float: left !important; }
 
-/* line 58, ../sass/partials/_helpers.scss */
+/* line 59, ../sass/partials/_helpers.scss */
 .pull-right {
   float: right !important; }
 
-/* line 62, ../sass/partials/_helpers.scss */
+/* line 63, ../sass/partials/_helpers.scss */
 .center {
   overflow: hidden !important; }
 
-/* line 66, ../sass/partials/_helpers.scss */
+/* line 67, ../sass/partials/_helpers.scss */
 .tac {
   text-align: center !important; }
 
-/* line 70, ../sass/partials/_helpers.scss */
+/* line 71, ../sass/partials/_helpers.scss */
 .tal {
   text-align: left !important; }
 
-/* line 74, ../sass/partials/_helpers.scss */
+/* line 75, ../sass/partials/_helpers.scss */
 .tar {
   text-align: right !important; }
 
-/* line 78, ../sass/partials/_helpers.scss */
+/* line 79, ../sass/partials/_helpers.scss */
 .nav, .nav_hor {
   list-style: none; }
 
-/* line 83, ../sass/partials/_helpers.scss */
+/* line 84, ../sass/partials/_helpers.scss */
 a {
   text-decoration: none; }
 
-/* line 87, ../sass/partials/_helpers.scss */
+/* line 88, ../sass/partials/_helpers.scss */
 .nav_hor {
   margin: 0;
   padding: 0;
@@ -184,14 +184,15 @@ a {
     .nav_hor li.last {
       padding-right: 0; }
 
-/* line 93, ../sass/partials/_helpers.scss */
+/* line 94, ../sass/partials/_helpers.scss */
 .float_bottom {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: 100; }
 
-/* line 99, ../sass/partials/_helpers.scss */
+/* line 102, ../sass/partials/_helpers.scss */
 .float_bottom_smaller {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -199,47 +200,65 @@ a {
   padding: 7px 3px 4px 3px;
   border-top: 1px solid #b2b2b2; }
 
-/* line 105, ../sass/partials/_helpers.scss */
+/* line 108, ../sass/partials/_helpers.scss */
+.dark-bg {
+  background: #353535 !important; }
+
+/* line 112, ../sass/partials/_helpers.scss */
 .ios7 {
   margin-top: 20px; }
-  /* line 107, ../sass/partials/_helpers.scss */
+  /* line 114, ../sass/partials/_helpers.scss */
   .ios7 .header {
     top: 20px; }
 
-/* line 39, ../sass/partials/_icons.scss */
-.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .list_search__star, .list_search__pencil, .ico-arr-r, .ico-check, .ico-share, .ico-like, .ico-info, .val-det-btn_i:before, .ico-photo, .ico-door, .ico-located, .ico-lunch, .ico-discount, .ico-thumb {
+/* line 119, ../sass/partials/_helpers.scss */
+.debug {
+  width: 320px;
+  height: 548px;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #000; }
+  /* line 121, ../sass/partials/_helpers.scss */
+  .debug .header,
+  .debug .footer {
+    position: absolute; }
+
+/* line 44, ../sass/partials/_icons.scss */
+.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .list_search__star, .list_search__pencil, .ico-arr-r, .ico-check, .ico-share, .ico-like, .ico-info, .val-det-btn_i:before, .ico-photo, .ico-door, .ico-located, .ico-lunch, .ico-discount, .ico-thumb, .ico-arrow, .ico-lunch2, .ico-time, .ico-person2 {
   position: relative;
   display: inline-block; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-fb {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 13px;
   display: block;
-  background-position: 0 -1908px;
+  background-position: 0 -2030px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-lock, .login-form__password:before {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 13px;
   display: block;
-  background-position: 0 -1838px;
+  background-position: 0 -1960px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-person, .login-form__email:before {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 17px;
@@ -250,9 +269,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-twitter {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 26px;
   width: 37px;
@@ -263,9 +282,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-vk {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 36px;
@@ -276,9 +295,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 216px;
   width: 194px;
@@ -289,35 +308,35 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-arr-d, .select .textbox:after {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 10px;
   width: 15px;
   display: block;
-  background-position: 0 -1761px;
+  background-position: 0 -1857px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-arr-l {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -1782px;
+  background-position: 0 -1878px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-location {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 17px;
@@ -328,9 +347,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-search, .value-list__form__submit:before {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 16px;
@@ -341,35 +360,35 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-arr-d_red, .list__header__select .textbox:after {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -1888px;
+  background-position: 0 -2009px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-arr-d_red2 {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -1867px;
+  background-position: 0 -1989px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-gear {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 20px;
@@ -380,9 +399,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-person_s {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 15px;
@@ -393,9 +412,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-location_s {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 12px;
@@ -406,9 +425,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-star_s {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 17px;
@@ -419,9 +438,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-connect_s {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 14px;
   width: 13px;
@@ -432,35 +451,35 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-arr-r_s {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -1947px;
+  background-position: 0 -2068px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-arr-r_b {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 36px;
   width: 13px;
   display: block;
-  background-position: 0 -1713px;
+  background-position: 0 -1784px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .list_search__pin {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -471,9 +490,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .list_search__top {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -484,9 +503,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .list_search__like {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -497,9 +516,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .list_search__bookmark {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -510,9 +529,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .list_search__star {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -523,9 +542,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .list_search__pencil {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -536,35 +555,35 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-arr-r {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 7px;
   display: block;
-  background-position: 0 -1809px;
+  background-position: 0 -1931px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-check {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 11px;
   width: 13px;
   display: block;
-  background-position: 0 -1974px;
+  background-position: 0 -2096px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-share {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 17px;
@@ -575,9 +594,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-like {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 21px;
@@ -588,9 +607,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-info, .val-det-btn_i:before {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 19px;
@@ -601,9 +620,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-photo {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 23px;
@@ -614,22 +633,22 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-door {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 14px;
   display: block;
-  background-position: 0 -1996px;
+  background-position: 0 -2118px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-located {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 26px;
@@ -640,9 +659,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-lunch {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 53px;
   width: 52px;
@@ -653,9 +672,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-discount {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 53px;
   width: 52px;
@@ -666,9 +685,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 45, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
 .ico-thumb {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 23px;
@@ -679,11 +698,63 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 51, ../sass/partials/_icons.scss */
+/* line 50, ../sass/partials/_icons.scss */
+.ico-arrow {
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 23px;
+  display: block;
+  background-position: 0 -1756px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 50, ../sass/partials/_icons.scss */
+.ico-lunch2 {
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 16px;
+  display: block;
+  background-position: 0 -1713px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 50, ../sass/partials/_icons.scss */
+.ico-time {
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
+  background-repeat: no-repeat;
+  height: 15px;
+  width: 14px;
+  display: block;
+  background-position: 0 -1831px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 50, ../sass/partials/_icons.scss */
+.ico-person2 {
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
+  background-repeat: no-repeat;
+  height: 14px;
+  width: 13px;
+  display: block;
+  background-position: 0 -1906px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 56, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
   margin: 0 auto; }
 
-/* line 55, ../sass/partials/_icons.scss */
+/* line 60, ../sass/partials/_icons.scss */
 .ico-logo-t {
   width: 194px;
   height: 28px;
@@ -693,7 +764,7 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 62, ../sass/partials/_icons.scss */
+  /* line 67, ../sass/partials/_icons.scss */
   .ico-logo-t:before {
     content: '';
     position: absolute;
@@ -701,9 +772,9 @@ a {
     bottom: 0;
     display: block; }
 
-/* line 81, ../sass/partials/_icons.scss */
+/* line 86, ../sass/partials/_icons.scss */
 .ico-nav-message {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 23px;
   width: 26px;
@@ -714,9 +785,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 87, ../sass/partials/_icons.scss */
+  /* line 92, ../sass/partials/_icons.scss */
   .ico-nav-message.active {
-    background-image: url('../images/sprite-sbc937abc8b.png');
+    background-image: url('../images/sprite-se8a7f4ffa4.png');
     background-repeat: no-repeat;
     height: 23px;
     width: 26px;
@@ -727,9 +798,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 81, ../sass/partials/_icons.scss */
+/* line 86, ../sass/partials/_icons.scss */
 .ico-nav-search {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 24px;
   width: 23px;
@@ -740,9 +811,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -11.5px; }
-  /* line 87, ../sass/partials/_icons.scss */
+  /* line 92, ../sass/partials/_icons.scss */
   .ico-nav-search.active {
-    background-image: url('../images/sprite-sbc937abc8b.png');
+    background-image: url('../images/sprite-se8a7f4ffa4.png');
     background-repeat: no-repeat;
     height: 24px;
     width: 23px;
@@ -753,9 +824,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 81, ../sass/partials/_icons.scss */
+/* line 86, ../sass/partials/_icons.scss */
 .ico-nav-map {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 19px;
@@ -766,9 +837,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -9.5px; }
-  /* line 87, ../sass/partials/_icons.scss */
+  /* line 92, ../sass/partials/_icons.scss */
   .ico-nav-map.active {
-    background-image: url('../images/sprite-sbc937abc8b.png');
+    background-image: url('../images/sprite-se8a7f4ffa4.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 19px;
@@ -779,9 +850,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 81, ../sass/partials/_icons.scss */
+/* line 86, ../sass/partials/_icons.scss */
 .ico-nav-top {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 28px;
   width: 21px;
@@ -792,9 +863,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -10.5px; }
-  /* line 87, ../sass/partials/_icons.scss */
+  /* line 92, ../sass/partials/_icons.scss */
   .ico-nav-top.active {
-    background-image: url('../images/sprite-sbc937abc8b.png');
+    background-image: url('../images/sprite-se8a7f4ffa4.png');
     background-repeat: no-repeat;
     height: 28px;
     width: 21px;
@@ -805,9 +876,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 81, ../sass/partials/_icons.scss */
+/* line 86, ../sass/partials/_icons.scss */
 .ico-nav-profile {
-  background-image: url('../images/sprite-sbc937abc8b.png');
+  background-image: url('../images/sprite-se8a7f4ffa4.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 26px;
@@ -818,9 +889,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 87, ../sass/partials/_icons.scss */
+  /* line 92, ../sass/partials/_icons.scss */
   .ico-nav-profile.active {
-    background-image: url('../images/sprite-sbc937abc8b.png');
+    background-image: url('../images/sprite-se8a7f4ffa4.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 26px;
@@ -857,13 +928,13 @@ a {
   .btn_red i {
     display: inline-block;
     margin: 0 4px 0 0; }
-    /* line 27, ../sass/partials/_controls.scss */
-    .btn_red i.ico-thumb {
+    /* line 28, ../sass/partials/_controls.scss */
+    .btn_red i.ico-thumb, .btn_red i.ico-arrow {
       position: relative;
       top: 3px;
       margin-right: 6px; }
 
-/* line 41, ../sass/partials/_controls.scss */
+/* line 42, ../sass/partials/_controls.scss */
 .textbox,
 input[type=text],
 input[type=email],
@@ -884,7 +955,7 @@ input[type=search] {
   width: 100%;
   border-radius: 0;
   transition: all 0.3s; }
-  /* line 54, ../sass/partials/_controls.scss */
+  /* line 55, ../sass/partials/_controls.scss */
   .textbox::-webkit-input-placeholder,
   input[type=text]::-webkit-input-placeholder,
   input[type=email]::-webkit-input-placeholder,
@@ -892,7 +963,7 @@ input[type=search] {
   input[type=tel]::-webkit-input-placeholder,
   input[type=search]::-webkit-input-placeholder {
     color: #fff !important; }
-  /* line 57, ../sass/partials/_controls.scss */
+  /* line 58, ../sass/partials/_controls.scss */
   .textbox:focus,
   input[type=text]:focus,
   input[type=email]:focus,
@@ -1400,6 +1471,40 @@ input[type=search] {
   margin: 1px 0 12px 0; }
 
 /* line 286, ../sass/partials/_value-list.scss */
+.slider-axis {
+  height: 11px;
+  width: 100%;
+  position: relative;
+  top: 21px; }
+  /* line 291, ../sass/partials/_value-list.scss */
+  .slider-axis i {
+    display: block;
+    width: 2.5px;
+    height: 11px;
+    background: #4a4a4a;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0; }
+    /* line 300, ../sass/partials/_value-list.scss */
+    .slider-axis i:nth-child(1) {
+      left: 0%; }
+    /* line 300, ../sass/partials/_value-list.scss */
+    .slider-axis i:nth-child(2) {
+      left: 24.9%; }
+    /* line 300, ../sass/partials/_value-list.scss */
+    .slider-axis i:nth-child(3) {
+      left: 49.8%; }
+    /* line 300, ../sass/partials/_value-list.scss */
+    .slider-axis i:nth-child(4) {
+      left: 74.7%; }
+    /* line 300, ../sass/partials/_value-list.scss */
+    .slider-axis i:nth-child(5) {
+      left: 99.6%; }
+    /* line 300, ../sass/partials/_value-list.scss */
+    .slider-axis i:nth-child(6) {
+      left: 124.5%; }
+
+/* line 307, ../sass/partials/_value-list.scss */
 .slider__handle {
   position: absolute;
   display: block;
@@ -1412,7 +1517,7 @@ input[type=search] {
   z-index: 100;
   border: 1px solid rgba(0, 0, 0, 0.05); }
 
-/* line 299, ../sass/partials/_value-list.scss */
+/* line 320, ../sass/partials/_value-list.scss */
 .slider__progress {
   width: 100%;
   height: 2px;
@@ -1422,30 +1527,30 @@ input[type=search] {
   position: relative;
   top: 50%;
   margin-top: -1px; }
-  /* line 308, ../sass/partials/_value-list.scss */
+  /* line 329, ../sass/partials/_value-list.scss */
   .slider__progress i {
     display: block;
     background-color: #d35557;
     height: 2px; }
 
-/* line 315, ../sass/partials/_value-list.scss */
+/* line 336, ../sass/partials/_value-list.scss */
 .list__item__slider {
   overflow: hidden;
   box-sizing: border-box;
   padding: 0 14px 0 0; }
-  /* line 319, ../sass/partials/_value-list.scss */
+  /* line 340, ../sass/partials/_value-list.scss */
   .list__item__slider .btn_black {
     height: 36px;
     line-height: 36px;
     font-size: 12px; }
 
-/* line 327, ../sass/partials/_value-list.scss */
+/* line 348, ../sass/partials/_value-list.scss */
 .value-list_possible {
   padding-top: 47px !important; }
-  /* line 330, ../sass/partials/_value-list.scss */
+  /* line 351, ../sass/partials/_value-list.scss */
   .value-list_possible .header {
     height: 47px; }
-    /* line 332, ../sass/partials/_value-list.scss */
+    /* line 353, ../sass/partials/_value-list.scss */
     .value-list_possible .header h2 {
       line-height: 1.2;
       padding-top: 3px;
@@ -1453,10 +1558,10 @@ input[type=search] {
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
       box-sizing: border-box; }
-  /* line 339, ../sass/partials/_value-list.scss */
+  /* line 360, ../sass/partials/_value-list.scss */
   .value-list_possible .list__item__info {
     padding-top: 10px !important; }
-  /* line 343, ../sass/partials/_value-list.scss */
+  /* line 364, ../sass/partials/_value-list.scss */
   .value-list_possible .list__item__title,
   .value-list_possible .list__item__address {
     color: #353f48;
@@ -1845,6 +1950,104 @@ h2.profile__user__row {
     left: 6px;
     top: 9px; }
 
+/* line 1, ../sass/partials/_new-rewiev.scss */
+.new-rewiev {
+  padding-top: 60px !important;
+  padding-left: 3px !important;
+  padding-right: 3px !important; }
+  /* line 5, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev .content {
+    padding: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0; }
+  /* line 9, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev .select {
+    margin-bottom: 3px; }
+    /* line 11, ../sass/partials/_new-rewiev.scss */
+    .new-rewiev .select .textbox {
+      background: #434343;
+      padding-left: 19px; }
+  /* line 16, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev .float_bottom {
+    border-top: 0; }
+
+/* line 21, ../sass/partials/_new-rewiev.scss */
+.new-rewiev-title {
+  color: #818181;
+  padding: 20px 0;
+  text-align: center; }
+
+/* line 27, ../sass/partials/_new-rewiev.scss */
+.new-rewiev-rate, .new-rewiev-rate_2 {
+  padding: 0 15px 30px 15px; }
+
+/* line 31, ../sass/partials/_new-rewiev.scss */
+.new-rewiev-rate-item {
+  overflow: hidden;
+  padding-bottom: 20px; }
+  /* line 34, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-rate-item p {
+    float: left;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size: 18px; }
+    /* line 40, ../sass/partials/_new-rewiev.scss */
+    .new-rewiev-rate-item p.red {
+      float: right;
+      color: #d45657; }
+  /* line 45, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-rate-item .rate {
+    float: right; }
+  /* line 48, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-rate-item .slider {
+    margin-top: 15px; }
+
+/* line 55, ../sass/partials/_new-rewiev.scss */
+.new-rewiev-rate_2 .new-rewiev-rate-item {
+  padding-bottom: 10px; }
+
+/* line 60, ../sass/partials/_new-rewiev.scss */
+.new-rewiev-cafe {
+  overflow: hidden;
+  padding: 0 0 20px 18px; }
+  /* line 63, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-cafe .ico-lunch2 {
+    float: left;
+    margin: 0 18px 0 0; }
+  /* line 67, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-cafe h3 {
+    color: #e37171;
+    font-size: 19px;
+    padding-bottom: 2px; }
+  /* line 72, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-cafe h4 {
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 10px; }
+
+/* line 79, ../sass/partials/_new-rewiev.scss */
+.new-rewiev-cafe-info {
+  overflow: hidden;
+  color: #9a9a9a;
+  font-size: 12px;
+  line-height: 1.2; }
+  /* line 84, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-cafe-info i {
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 1px; }
+  /* line 89, ../sass/partials/_new-rewiev.scss */
+  .new-rewiev-cafe-info div {
+    width: 105px;
+    float: left;
+    position: relative;
+    top: 1px;
+    padding: 0 14px 0 0; }
+
 /* line 1, ../sass/partials/_footer.scss */
 .footer {
   overflow: hidden;
@@ -1875,17 +2078,3 @@ h2.profile__user__row {
     position: absolute;
     bottom: 0;
     left: 50%; }
-
-/* line 37, ../sass/style.scss */
-.debug {
-  width: 320px;
-  height: 548px;
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 1px solid #000; }
-  /* line 39, ../sass/style.scss */
-  .debug .header,
-  .debug .footer {
-    position: absolute; }

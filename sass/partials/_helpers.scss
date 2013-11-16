@@ -1,9 +1,8 @@
-
 body {
   font-family: $fontNameRegular;
   color: $textColor;
   background: #d45657;
-  &.white-bg{
+  &.white-bg {
     background: #fff;
   }
 }
@@ -13,19 +12,21 @@ body {
   padding: 0 $wrapperPaddings;
   @include box-sizing(border-box);
 }
-.wrapper_no-pad{
+
+.wrapper_no-pad {
   padding-left: 0;
   padding-right: 0;
 }
 
-.wrapper_pb-footer{
+.wrapper_pb-footer {
   padding-bottom: 49px !important;
 }
 
-a{
-  color: #364049 ;
+a {
+  color: #364049;
 
 }
+
 * {
   outline: none;
   -webkit-font-smoothing: antialiased !important;
@@ -80,7 +81,7 @@ a{
   @extend .clearfix;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -90,21 +91,43 @@ a{
   overflow: visible;
 }
 
-.float_bottom{
+.float_bottom {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
+  z-index: 100;
 }
-.float_bottom_smaller{
+
+.float_bottom_smaller {
   @include box-sizing(border-box);
-  padding:7px 3px 4px 3px;
+  padding: 7px 3px 4px 3px;
   border-top: 1px solid #b2b2b2;
 }
 
-.ios7{
-   margin-top: 20px;
-  .header{
+.dark-bg {
+  background: #353535 !important;
+}
+
+.ios7 {
+  margin-top: 20px;
+  .header {
     top: 20px;
   }
 }
+
+.debug {
+  .header,
+  .footer {
+    position: absolute;
+  }
+  width: 320px;
+  height: 548px;
+  position: relative;
+  @include box-sizing(border-box);
+  border: 1px solid #000;
+}
+
+
+
+
