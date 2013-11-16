@@ -2,7 +2,7 @@
   padding-top: 60px !important;
   padding-left: 3px !important;
   padding-right: 3px !important;
-  .content{
+  .content {
     padding: 0;
     @include border-radius(0);
   }
@@ -16,6 +16,14 @@
   .float_bottom {
     border-top: 0;
   }
+
+  .ico-sad {
+    position: absolute;
+    left: 50%;
+    top: 188px;
+    margin: 0 0 0 -63px;
+  }
+
 }
 
 .new-rewiev-title {
@@ -57,40 +65,56 @@
   }
 }
 
-.new-rewiev-cafe{
+.new-rewiev-cafe {
   overflow: hidden;
   padding: 0 0 20px 18px;
-  .ico-lunch2{
+  .ico-lunch2 {
     float: left;
     margin: 0 18px 0 0;
   }
-  h3{
+  h3 {
     color: #e37171;
     font-size: 19px;
     padding-bottom: 2px;
   }
-  h4{
+  h4 {
     color: #fff;
     font-size: 14px;
     padding-bottom: 10px;
   }
 }
 
-.new-rewiev-cafe-info{
+.new-rewiev-cafe-info {
   overflow: hidden;
   color: #9a9a9a;
   font-size: 12px;
   line-height: 1.2;
-  i{
+  i {
     margin: 0 10px 0 0;
     position: relative;
     top: 1px;
   }
-  div{
+  div {
     width: 105px;
     float: left;
     position: relative;
     top: 1px;
     padding: 0 14px 0 0;
+  }
+}
+
+.new-rewiev-warn {
+  width: 200px;
+  position: absolute;
+  bottom: 65px;
+  left: 50%;
+  margin: 0 0 0 -100px;
+  font-size: 15px;
+  color: #d4d4d4;
+  text-align: center;
+  line-height: 1.3;
+  i {
+    display: block;
+    margin: 15px auto 0;
   }
 }
