@@ -96,6 +96,11 @@ a{
   bottom: 0;
   width: 100%;
 }
+.float_bottom_smaller{
+  @include box-sizing(border-box);
+  padding:7px 3px 4px 3px;
+  border-top: 1px solid #b2b2b2;
+}
 
 .ios7{
    margin-top: 20px;

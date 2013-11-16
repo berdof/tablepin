@@ -21,6 +21,8 @@ $ico-list: ico-fb,
               list_search__top,
               list_search__like,
               list_search__bookmark,
+              list_search__star,
+              list_search__pencil,
               ico-arr-r,
               ico-check,
               ico-share,
@@ -30,7 +32,8 @@ $ico-list: ico-fb,
               ico-door,
               ico-located,
               ico-lunch,
-              ico-discount
+              ico-discount,
+              ico-thumb
 ;
 
 %ico-item{

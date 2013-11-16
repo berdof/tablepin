@@ -24,7 +24,13 @@
   i{
     display: inline-block;
     margin: 0 4px 0 0;
+    &.ico-thumb{
+      position: relative;
+      top: 3px;
+      margin-right: 6px;
+    }
   }
+
 }
 
 .textbox,

@@ -115,7 +115,7 @@
 
 .list {
   &.list_search {
-    .list__item__main{
+    .list__item__main {
       height: 68px;
     }
     .list__item__secondary {
@@ -236,6 +236,7 @@
     display: block;
   }
 }
+
 .rate_w {
   @include sprite-background(star-empty, $sprites-stars_w, 16px);
   background-repeat: repeat-x;
@@ -279,7 +280,7 @@
 .slider {
   position: relative;
   height: 28px;
-  margin:1px 0 12px 0;
+  margin: 1px 0 12px 0;
 }
 
 .slider__handle {
@@ -311,16 +312,38 @@
   }
 }
 
-
 .list__item__slider {
   overflow: hidden;
   box-sizing: border-box;
   padding: 0 14px 0 0;
-  .btn_black{
+  .btn_black {
     height: 36px;
     line-height: 36px;
     font-size: 12px;
 
+  }
+}
+
+.value-list_possible {
+  @extend .value-list;
+  padding-top: 47px !important;
+  .header{
+    height: 47px;
+    h2{
+      line-height: 1.2;
+      padding-top: 3px;
+      padding-right: 30px;
+      @include box-sizing(border-box);
+    }
+  }
+  .list__item__info {
+    padding-top: 10px !important;
+  }
+  .list__item__title,
+  .list__item__address {
+    color: #353f48;
+    font-size: 17px;
+    line-height: 1.1;
   }
 }
 
