@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Tablepin</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+    <body class="white-bg ">
+<div class="wrapper wrapper_pb-footer offers">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
+
+            <h2>
+                Тандыр
+                <span class="header-sub-title">спецпредложение</span>
+            </h2>
+
+            <a class="ico-like header__ico_r" href="javascript:void(0);"></a>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="offers-box offers-restr">
+            <i class="ico-lunch pull-left"></i>
+            <i class="ico-share2 pull-right"></i>
+
+            <div class="center">
+                <h4>Бизнес-ланч</h4>
+                <h5>49 грн</h5>
+            </div>
+
+        </div>
+        <div class="offers-box">
+            <h3>Воспользовались: 14 пользователей</h3>
+
+            <table class="offers-calendar">
+                <tr>
+                    <th>пн</th>
+                    <th>вт</th>
+                    <th>ср</th>
+                    <th>чт</th>
+                    <th>пт</th>
+                    <th class="weekend">сб</th>
+                    <th class="weekend">вс</th>
+                </tr>
+                <tr>
+                    <td>с <span>13:30</span></td>
+                    <td>с <span>13:30</span></td>
+                    <td>с <span>13:30</span></td>
+                    <td>с <span>13:30</span></td>
+                    <td>с <span>13:30</span></td>
+                    <td>с <span>13:30</span></td>
+                    <td>с <span>13:30</span></td>
+                </tr>
+                <tr>
+                    <td>по <span>14:30</span></td>
+                    <td>по <span>14:30</span></td>
+                    <td>по <span>14:30</span></td>
+                    <td>по <span>14:30</span></td>
+                    <td>по <span>14:30</span></td>
+                    <td>по <span>14:30</span></td>
+                    <td>по <span>14:30</span></td>
+                </tr>
+            </table>
+            <h3>Доступно: 01.11.2013-31.11.2013</h3>
+        </div>
+        <article class="offers-box offers-descr">
+            <h3>Описание:</h3>
+            <p>Обеденное предложение. Фиксированная цена за 3 блюда. Напитки не включены.Обеденное предложение. Фиксированная цена за 3 блюда. Напитки не включены.</p>
+        </article>
+    </div>
+
+    <div class="float_bottom float_bottom_smaller">
+        <a class="btn_red " href="javascript:void(0);">Забронировать с этим предложением</a>
+    </div>
+</div>
+<script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".list__item, .profile__user__row_soc, .vd-map").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
+</body>
+</html>
+
+

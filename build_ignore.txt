@@ -1,5 +1,6 @@
 */images/sprite/*
 */images/sprite-stars/*
+*/sprite-stars_w/*
 */.idea
 */META-INF/*
 */.sass-cache

@@ -1,4 +1,4 @@
-/* line 17, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -19,38 +19,38 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
-/* line 22, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
-/* line 24, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
-/* line 26, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 28, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
-/* line 30, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
-  /* line 103, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  /* line 103, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
-/* line 32, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
-/* line 116, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
@@ -164,7 +164,7 @@ a {
   overflow: hidden;
   *zoom: 1;
   overflow: visible; }
-  /* line 60, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+  /* line 60, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
   .nav_hor li {
     list-style-image: none;
     list-style-type: none;
@@ -174,13 +174,13 @@ a {
     float: left;
     padding-left: 4px;
     padding-right: 4px; }
-    /* line 48, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    /* line 48, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
     .nav_hor li:first-child, .nav_hor li.first {
       padding-left: 0; }
-    /* line 49, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    /* line 49, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
     .nav_hor li:last-child {
       padding-right: 0; }
-    /* line 50, ../../../../../../../Applications/FireApp.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
+    /* line 50, ../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/lists/_horizontal-list.scss */
     .nav_hor li.last {
       padding-right: 0; }
 
@@ -225,40 +225,40 @@ a {
   .debug .footer {
     position: absolute; }
 
-/* line 46, ../sass/partials/_icons.scss */
-.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .list_search__star, .list_search__pencil, .ico-arr-r, .ico-check, .ico-share, .ico-like, .ico-info, .val-det-btn_i:before, .ico-photo, .ico-door, .ico-located, .ico-lunch, .ico-discount, .ico-thumb, .ico-arrow, .ico-lunch2, .ico-time, .ico-person2, .icon-long-arr, .ico-sad {
+/* line 47, ../sass/partials/_icons.scss */
+.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .list_search__star, .list_search__pencil, .ico-arr-r, .ico-check, .ico-share, .ico-like, .ico-info, .val-det-btn_i:before, .ico-photo, .ico-door, .ico-located, .ico-lunch, .ico-discount, .ico-thumb, .ico-arrow, .ico-lunch2, .ico-time, .ico-person2, .icon-long-arr, .ico-sad, .ico-share2 {
   position: relative;
   display: inline-block; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-fb {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 13px;
   display: block;
-  background-position: 0 -2228px;
+  background-position: 0 -2259px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-lock, .login-form__password:before {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 13px;
   display: block;
-  background-position: 0 -2158px;
+  background-position: 0 -2189px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-person, .login-form__email:before {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 17px;
@@ -269,9 +269,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-twitter {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 26px;
   width: 37px;
@@ -282,9 +282,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-vk {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 36px;
@@ -295,9 +295,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 216px;
   width: 194px;
@@ -308,35 +308,35 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arr-d, .select .textbox:after {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 10px;
   width: 15px;
   display: block;
-  background-position: 0 -2055px;
+  background-position: 0 -2086px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arr-l {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -2076px;
+  background-position: 0 -2107px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-location {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 17px;
@@ -347,9 +347,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-search, .value-list__form__submit:before {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 16px;
@@ -360,35 +360,35 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arr-d_red, .list__header__select .textbox:after {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -2207px;
+  background-position: 0 -2238px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arr-d_red2 {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -2187px;
+  background-position: 0 -2218px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-gear {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 20px;
@@ -399,22 +399,22 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-person_s {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 15px;
   display: block;
-  background-position: 0 -1828px;
+  background-position: 0 -1859px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-location_s {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 12px;
@@ -425,9 +425,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-star_s {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 17px;
@@ -438,48 +438,48 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-connect_s {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 14px;
   width: 13px;
   display: block;
-  background-position: 0 -1886px;
+  background-position: 0 -1917px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arr-r_s {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -2266px;
+  background-position: 0 -2297px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arr-r_b {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 36px;
   width: 13px;
   display: block;
-  background-position: 0 -1982px;
+  background-position: 0 -2013px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .list_search__pin {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -490,9 +490,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .list_search__top {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -503,9 +503,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .list_search__like {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -516,9 +516,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .list_search__bookmark {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -529,9 +529,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .list_search__star {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -542,9 +542,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .list_search__pencil {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -555,48 +555,48 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arr-r {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 7px;
   display: block;
-  background-position: 0 -2129px;
+  background-position: 0 -2160px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-check {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 11px;
   width: 13px;
   display: block;
-  background-position: 0 -2294px;
+  background-position: 0 -2325px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-share {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 17px;
   display: block;
-  background-position: 0 -1855px;
+  background-position: 0 -1886px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-like {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 21px;
@@ -607,9 +607,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-info, .val-det-btn_i:before {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 19px;
@@ -620,9 +620,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-photo {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 23px;
@@ -633,22 +633,22 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-door {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 14px;
   display: block;
-  background-position: 0 -2316px;
+  background-position: 0 -2347px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-located {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 26px;
@@ -659,9 +659,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-lunch {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 53px;
   width: 52px;
@@ -672,9 +672,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-discount {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 53px;
   width: 52px;
@@ -685,9 +685,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-thumb {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 23px;
@@ -698,61 +698,61 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-arrow {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 23px;
   display: block;
-  background-position: 0 -1954px;
+  background-position: 0 -1985px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-lunch2 {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 32px;
   width: 16px;
   display: block;
-  background-position: 0 -1911px;
+  background-position: 0 -1942px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-time {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 15px;
   width: 14px;
   display: block;
-  background-position: 0 -2029px;
+  background-position: 0 -2060px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-person2 {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 14px;
   width: 13px;
   display: block;
-  background-position: 0 -2104px;
+  background-position: 0 -2135px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .icon-long-arr {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 50px;
   width: 15px;
@@ -763,9 +763,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 52, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
 .ico-sad {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 126px;
   width: 125px;
@@ -776,11 +776,24 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 58, ../sass/partials/_icons.scss */
+/* line 53, ../sass/partials/_icons.scss */
+.ico-share2 {
+  background-image: url('../images/sprite-s1ed0e951e5.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 17px;
+  display: block;
+  background-position: 0 -1828px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 59, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
   margin: 0 auto; }
 
-/* line 62, ../sass/partials/_icons.scss */
+/* line 63, ../sass/partials/_icons.scss */
 .ico-logo-t {
   width: 194px;
   height: 28px;
@@ -790,7 +803,7 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 69, ../sass/partials/_icons.scss */
+  /* line 70, ../sass/partials/_icons.scss */
   .ico-logo-t:before {
     content: '';
     position: absolute;
@@ -798,9 +811,9 @@ a {
     bottom: 0;
     display: block; }
 
-/* line 88, ../sass/partials/_icons.scss */
+/* line 89, ../sass/partials/_icons.scss */
 .ico-nav-message {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 23px;
   width: 26px;
@@ -811,9 +824,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 94, ../sass/partials/_icons.scss */
+  /* line 95, ../sass/partials/_icons.scss */
   .ico-nav-message.active {
-    background-image: url('../images/sprite-s17568d08bb.png');
+    background-image: url('../images/sprite-s1ed0e951e5.png');
     background-repeat: no-repeat;
     height: 23px;
     width: 26px;
@@ -824,9 +837,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 88, ../sass/partials/_icons.scss */
+/* line 89, ../sass/partials/_icons.scss */
 .ico-nav-search {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 24px;
   width: 23px;
@@ -837,9 +850,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -11.5px; }
-  /* line 94, ../sass/partials/_icons.scss */
+  /* line 95, ../sass/partials/_icons.scss */
   .ico-nav-search.active {
-    background-image: url('../images/sprite-s17568d08bb.png');
+    background-image: url('../images/sprite-s1ed0e951e5.png');
     background-repeat: no-repeat;
     height: 24px;
     width: 23px;
@@ -850,9 +863,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 88, ../sass/partials/_icons.scss */
+/* line 89, ../sass/partials/_icons.scss */
 .ico-nav-map {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 19px;
@@ -863,9 +876,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -9.5px; }
-  /* line 94, ../sass/partials/_icons.scss */
+  /* line 95, ../sass/partials/_icons.scss */
   .ico-nav-map.active {
-    background-image: url('../images/sprite-s17568d08bb.png');
+    background-image: url('../images/sprite-s1ed0e951e5.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 19px;
@@ -876,9 +889,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 88, ../sass/partials/_icons.scss */
+/* line 89, ../sass/partials/_icons.scss */
 .ico-nav-top {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 28px;
   width: 21px;
@@ -889,9 +902,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -10.5px; }
-  /* line 94, ../sass/partials/_icons.scss */
+  /* line 95, ../sass/partials/_icons.scss */
   .ico-nav-top.active {
-    background-image: url('../images/sprite-s17568d08bb.png');
+    background-image: url('../images/sprite-s1ed0e951e5.png');
     background-repeat: no-repeat;
     height: 28px;
     width: 21px;
@@ -902,9 +915,9 @@ a {
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 88, ../sass/partials/_icons.scss */
+/* line 89, ../sass/partials/_icons.scss */
 .ico-nav-profile {
-  background-image: url('../images/sprite-s17568d08bb.png');
+  background-image: url('../images/sprite-s1ed0e951e5.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 26px;
@@ -915,9 +928,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 94, ../sass/partials/_icons.scss */
+  /* line 95, ../sass/partials/_icons.scss */
   .ico-nav-profile.active {
-    background-image: url('../images/sprite-s17568d08bb.png');
+    background-image: url('../images/sprite-s1ed0e951e5.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 26px;
@@ -2095,6 +2108,101 @@ h2.profile__user__row {
   .new-rewiev-warn i {
     display: block;
     margin: 15px auto 0; }
+
+/* line 1, ../sass/partials/_offers.scss */
+.offers {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 70px !important; }
+  /* line 6, ../sass/partials/_offers.scss */
+  .offers .header h2 {
+    line-height: 1.3;
+    color: #fff; }
+  /* line 10, ../sass/partials/_offers.scss */
+  .offers .header .header-sub-title {
+    color: #fff; }
+  /* line 14, ../sass/partials/_offers.scss */
+  .offers .float_bottom {
+    border: 0; }
+  /* line 18, ../sass/partials/_offers.scss */
+  .offers .content {
+    padding: 47px 0 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px; }
+
+/* line 25, ../sass/partials/_offers.scss */
+.offers-box {
+  border-top: 2px dotted #dcdcdc;
+  padding: 17px 17px 0 17px;
+  overflow: hidden; }
+  /* line 29, ../sass/partials/_offers.scss */
+  .offers-box:first-child {
+    border: 0; }
+  /* line 33, ../sass/partials/_offers.scss */
+  .offers-box h3 {
+    color: #85898e;
+    font-size: 12px;
+    padding-bottom: 22px; }
+
+/* line 40, ../sass/partials/_offers.scss */
+.offers-restr {
+  padding-top: 11px;
+  padding-bottom: 16px; }
+  /* line 43, ../sass/partials/_offers.scss */
+  .offers-restr .ico-lunch {
+    margin: 0 35px 0 0;
+    display: block; }
+  /* line 47, ../sass/partials/_offers.scss */
+  .offers-restr .ico-share2 {
+    margin-top: 21px; }
+  /* line 50, ../sass/partials/_offers.scss */
+  .offers-restr h4 {
+    font-size: 17px;
+    padding-top: 8px;
+    padding-bottom: 6px; }
+  /* line 55, ../sass/partials/_offers.scss */
+  .offers-restr h5 {
+    font-size: 17px;
+    color: #d45657; }
+
+/* line 61, ../sass/partials/_offers.scss */
+.offers-calendar {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 50px 0; }
+  /* line 65, ../sass/partials/_offers.scss */
+  .offers-calendar th {
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 600; }
+    /* line 71, ../sass/partials/_offers.scss */
+    .offers-calendar th.weekend {
+      color: #d45657; }
+  /* line 75, ../sass/partials/_offers.scss */
+  .offers-calendar td {
+    text-align: center;
+    font-size: 10px; }
+  /* line 79, ../sass/partials/_offers.scss */
+  .offers-calendar span {
+    display: block;
+    padding: 2px 0 4px;
+    font-weight: 600; }
+
+/* line 87, ../sass/partials/_offers.scss */
+.offers-descr h3 {
+  color: #353f48;
+  font-size: 17px;
+  padding: 0 0 10px 0; }
+/* line 92, ../sass/partials/_offers.scss */
+.offers-descr p {
+  color: #353f48;
+  font-size: 12px;
+  line-height: 1.2; }
 
 /* line 1, ../sass/partials/_footer.scss */
 .footer {
