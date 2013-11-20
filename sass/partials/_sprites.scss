@@ -1,6 +1,7 @@
 $sprites: sprite-map("sprite/*.png", $position: 0%, $spacing: 25px, $repeat: no-repeat, $readonly-spacing: 10px);
 $sprites-stars: sprite-map("sprite-stars/*.png", $position: 0%, $spacing: 25px, $repeat: no-repeat, $readonly-spacing: 10px);
 $sprites-stars_w: sprite-map("sprite-stars_w/*.png", $position: 0%, $spacing: 25px, $repeat: no-repeat, $readonly-spacing: 10px);
+$sprites-stars_w2: sprite-map("sprite-stars_w2/*.png", $position: 0%, $spacing: 25px, $repeat: no-repeat, $readonly-spacing: 10px);
 
 @mixin sprite-background($name,$map: $sprites, $spriteWidth:194px, $dimensions: true) {
   background-image: sprite-url($map);
