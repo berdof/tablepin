@@ -25,6 +25,10 @@
     margin: 0 0 0 -63px;
   }
 
+  .btn_red{
+    @include box-sizing(border-box);
+  }
+
 }
 
 .new-rewiev-title {
@@ -120,3 +124,7 @@
   }
 }
 
+.new-rewiev_v2{
+  @extend .new-rewiev;
+  padding-bottom: 4px !important;
+}
