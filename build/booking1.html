@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Tablepin</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+    <body>
+<div class="wrapper wrapper_pb-footer book">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
+
+            <h2>Новое бронирование</h2>
+        </div>
+    </header>
+    <div class="content">
+        <h2 class="book-title">
+            Воспользуйтесь нашей формой для <br>
+            бронирования, Все совершенно бесплатно!
+        </h2>
+
+        <div class="book-list">
+            <div class="book-list-item">
+                <div class="new-rewiev-cafe">
+                    <i class="ico-lunch2"></i>
+                    <a href="javascript:void(0);" class="ico-arr-r2"></a>
+                    <div class="center">
+                        <h3>Тандыр</h3>
+                        <h4>Киевская ул, 11, Козин, Киевска...</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="book-list-item">
+                <a class="book-list-btn" href="javascript:void(0);">Выбор даты</a>
+            </div>
+            <div class="book-list-item">
+                <a class="book-list-btn" href="javascript:void(0);">Выбор времени</a>
+            </div>
+            <div class="book-list-item">
+                <a class="book-list-btn" href="javascript:void(0);">
+                    <i class="pull-left">-</i>
+                    4 человека
+                    <i class="pull-right">+</i>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="float_bottom float_bottom_smaller">
+        <a class="btn_red" href="javascript:void(0);">Поиск</a>
+    </div>
+</div>
+<script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".value-list .list__item,.hint-list .list__item, .profile__user__row_soc, .vd-map").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
+</body>
+</html>
+
+
