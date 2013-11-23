@@ -103,6 +103,11 @@ a {
   z-index: 100;
 }
 
+.not-float_bottom{
+  @include box-sizing(border-box);
+  padding: 4px;
+}
+
 .float_bottom_smaller {
   @include box-sizing(border-box);
   padding: 7px 3px 4px 3px;

@@ -7,8 +7,8 @@
     <title>Tablepin</title>
     <link href="css/style.css" rel="stylesheet"/>
 </head>
-    <body class="white-bg dark-bg">
-<div class="wrapper wrapper_pb-footer new-rewiev">
+    <body>
+<div class="wrapper wrapper_pb-footer new-rewiev_v2">
     <header class="header header_fixed">
         <div class="clearfix">
             <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
@@ -163,14 +163,12 @@
             </div>
         </div>
     </div>
-    <div class="float_bottom float_bottom_smaller">
-        <a class="btn_red" href="javascript:void(0);"><i class="ico-arrow"></i>Send a review</a>
-    </div>
+    <a class="btn_red" href="javascript:void(0);"><i class="ico-arrow"></i>Send a review</a>
 </div>
 <script src="js/vendors/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".list__item, .profile__user__row_soc, .vd-map").on("click",function(){
+        $(".value-list .list__item,.hint-list .list__item, .profile__user__row_soc, .vd-map").on("click",function(){
             $(this).toggleClass("opened")
         })
     })

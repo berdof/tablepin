@@ -25,13 +25,19 @@
     display: inline-block;
     margin: 0 4px 0 0;
     &.ico-thumb,
-    &.ico-arrow{
+    &.ico-arrow,
+    &.ico-share,
+    &.ico-hint{
       position: relative;
       top: 3px;
       margin-right: 6px;
     }
   }
+}
 
+.btn_green{
+  @extend .btn_red;
+  background: #7fa445;
 }
 
 .textbox,

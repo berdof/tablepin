@@ -24,12 +24,16 @@
     <li><a href="new_review(unsuccessful).html">new_review(unsuccessful).html</a></li>
     <li><a href="special offer.html">special offer.html</a></li>
     <li><a href="review detail.html">review detail.html</a></li>
+    <li><a href="review_list.html">review_list.html</a></li>
+    <li><a href="new_hint.html">new_hint.html</a></li>
+    <li><a href="new_hint(successful).html">new_hint(successful).html</a></li>
+    <li><a href="hint_list.html">hint_list.html</a></li>
 </ol>
 
 <script src="js/vendors/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".list__item, .profile__user__row_soc, .vd-map").on("click",function(){
+        $(".value-list .list__item,.hint-list .list__item, .profile__user__row_soc, .vd-map").on("click",function(){
             $(this).toggleClass("opened")
         })
     })

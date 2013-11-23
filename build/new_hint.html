@@ -8,7 +8,7 @@
     <link href="css/style.css" rel="stylesheet"/>
 </head>
     <body>
-<div class="wrapper wrapper_pb-footer new-rewiev">
+<div class="wrapper wrapper_pb-footer new-rewiev_v2">
     <header class="header header_fixed">
         <div class="clearfix">
             <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
@@ -17,7 +17,6 @@
         </div>
     </header>
     <div class="content">
-        <i class="ico-sad"></i>
 
         <div class="new-rewiev-cafe">
             <i class="ico-lunch2"></i>
@@ -28,18 +27,18 @@
             </div>
         </div>
 
+        <form class="new-rewiev-form" action="#">
+            <textarea placeholder="введите текст подсказки..."></textarea>
 
-        <div class="new-rewiev-warn">
-            чтобы оставить отзыв о
-            ресторане пожалуйста
-            сначала забронируйте стол
-            и посетите заведение
-            <i class="icon-long-arr"></i>
-        </div>
+            <div class="file-upload pull-right">
+                <input type="file"/>
+                <span><i class="ico-photo2"></i>прикрепить фото</span>
+            </div>
+        </form>
 
     </div>
     <div class="float_bottom float_bottom_smaller">
-        <a class="btn_red" href="javascript:void(0);">Забронировать стол в ресторане</a>
+        <a class="btn_red" href="javascript:void(0);"><i class="ico-arrow"></i>Send a hint</a>
     </div>
 </div>
 <script src="js/vendors/jquery-1.10.2.min.js"></script>

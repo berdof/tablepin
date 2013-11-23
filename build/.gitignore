@@ -1,0 +1,6 @@
+.sass-cache/*
+.coffeescript-cache/*
+*.DS_Store
+.idea/
+compass_app_log.txt
+fire_app_log.txt
