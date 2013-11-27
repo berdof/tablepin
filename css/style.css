@@ -248,79 +248,105 @@ a {
   .debug .footer {
     position: absolute; }
 
-/* line 60, ../sass/partials/_icons.scss */
-.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .list_search__star, .list_search__pencil, .ico-arr-r, .ico-arr-r2, .ico-check, .ico-check2, .ico-share, .ico-like, .ico-like2, .ico-dislike, .ico-info, .val-det-btn_i:before, .ico-photo, .ico-photo2, .ico-door, .ico-located, .ico-lunch, .ico-discount, .ico-thumb, .ico-arrow, .ico-lunch2, .ico-time, .ico-time2, .ico-time3, .ico-time4, .ico-person2, .icon-long-arr, .ico-sad, .ico-share2, .ico-share3, .ico-noise, .ico-noise2, .ico-hint, .ico-chat {
+/* line 71, ../sass/partials/_icons.scss */
+.ico-fb, .ico-lock, .login-form__password:before, .ico-person, .login-form__email:before, .ico-person2, .ico-person3, .ico-twitter, .ico-vk, .ico-logo, .ico-logo-t:before, .ico-arr-d, .select .textbox:after, .ico-arr-l, .ico-location, .ico-search, .value-list__form__submit:before, .ico-arr-d_red, .list__header__select .textbox:after, .ico-arr-d_red2, .ico-gear, .ico-person_s, .ico-location_s, .ico-star_s, .ico-connect_s, .ico-arr-r_s, .ico-arr-r_b, .list_search__pin, .list_search__top, .list_search__like, .list_search__bookmark, .list_search__star, .list_search__pencil, .list_search__vaucher, .list_search__how, .list_search__floppy, .list_search__paper, .list_search__undo, .ico-arr-r, .ico-arr-r2, .ico-check, .ico-check2, .ico-share, .ico-like, .ico-like2, .ico-dislike, .ico-info, .val-det-btn_i:before, .ico-photo, .ico-photo2, .ico-door, .ico-located, .ico-lunch, .ico-discount, .ico-thumb, .ico-arrow, .ico-lunch2, .ico-time, .ico-time2, .ico-time3, .ico-time4, .ico-time5, .icon-long-arr, .ico-sad, .ico-share2, .ico-share3, .ico-noise, .ico-noise2, .ico-hint, .ico-chat, .ico-successful, .ico-food, .ico-percent {
   position: relative;
   display: inline-block; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-fb {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 13px;
   display: block;
-  background-position: 0 -2761px;
+  background-position: 0 -3309px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-lock, .login-form__password:before {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 13px;
   display: block;
-  background-position: 0 -2691px;
+  background-position: 0 -3239px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-person, .login-form__email:before {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 18px;
   width: 17px;
   display: block;
-  background-position: 0 -2223px;
+  background-position: 0 -2729px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
+.ico-person2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 23px;
+  display: block;
+  background-position: 0 -2186px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-person3 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 29px;
+  width: 12px;
+  display: block;
+  background-position: 0 -2544px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
 .ico-twitter {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 26px;
   width: 37px;
   display: block;
-  background-position: 0 -1361px;
+  background-position: 0 -1760px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-vk {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 36px;
   display: block;
-  background-position: 0 -1619px;
+  background-position: 0 -2018px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 216px;
   width: 194px;
@@ -331,178 +357,178 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-arr-d, .select .textbox:after {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 10px;
   width: 15px;
   display: block;
-  background-position: 0 -2559px;
+  background-position: 0 -3133px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-arr-l {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -2580px;
+  background-position: 0 -3154px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-location {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 17px;
   display: block;
-  background-position: 0 -1753px;
+  background-position: 0 -2152px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-search, .value-list__form__submit:before {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 16px;
   display: block;
-  background-position: 0 -2168px;
+  background-position: 0 -2674px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-arr-d_red, .list__header__select .textbox:after {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -2740px;
+  background-position: 0 -3289px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-arr-d_red2 {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 9px;
   width: 13px;
   display: block;
-  background-position: 0 -2720px;
+  background-position: 0 -3268px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-gear {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 21px;
   width: 20px;
   display: block;
-  background-position: 0 -1953px;
+  background-position: 0 -2419px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-person_s {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 15px;
   display: block;
-  background-position: 0 -2308px;
+  background-position: 0 -2814px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-location_s {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 12px;
   display: block;
-  background-position: 0 -2196px;
+  background-position: 0 -2702px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-star_s {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 17px;
   width: 17px;
   display: block;
-  background-position: 0 -2110px;
+  background-position: 0 -2616px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-connect_s {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 14px;
   width: 13px;
   display: block;
-  background-position: 0 -2366px;
+  background-position: 0 -2912px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-arr-r_s {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 16px;
   width: 9px;
   display: block;
-  background-position: 0 -2799px;
+  background-position: 0 -3348px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-arr-r_b {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 36px;
   width: 13px;
   display: block;
-  background-position: 0 -2486px;
+  background-position: 0 -3059px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .list_search__pin {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -513,22 +539,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .list_search__top {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 58px;
-  width: 57px;
-  display: block;
-  background-position: 0 -516px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.list_search__like {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -539,22 +552,9 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.list_search__bookmark {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 58px;
-  width: 57px;
-  display: block;
-  background-position: 0 -889px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.list_search__star {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__like {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
@@ -565,194 +565,25 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.list_search__pencil {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__bookmark {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 58px;
   width: 57px;
   display: block;
-  background-position: 0 -788px;
+  background-position: 0 -1027px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-arr-r {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__star {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 18px;
-  width: 7px;
-  display: block;
-  background-position: 0 -2633px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-arr-r2 {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 18px;
-  width: 7px;
-  display: block;
-  background-position: 0 -2662px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-check {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 11px;
-  width: 13px;
-  display: block;
-  background-position: 0 -2827px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-check2 {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 75px;
-  width: 93px;
-  display: block;
-  background-position: 0 -1174px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-share {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 20px;
-  width: 17px;
-  display: block;
-  background-position: 0 -2335px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-like {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 21px;
-  width: 21px;
-  display: block;
-  background-position: 0 -1921px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-like2 {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 19px;
-  width: 20px;
-  display: block;
-  background-position: 0 -2016px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-dislike {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 19px;
-  width: 20px;
-  display: block;
-  background-position: 0 -1985px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-info, .val-det-btn_i:before {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 20px;
-  width: 19px;
-  display: block;
-  background-position: 0 -1652px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-photo {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 18px;
-  width: 23px;
-  display: block;
-  background-position: 0 -2138px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-photo2 {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 13px;
-  width: 16px;
-  display: block;
-  background-position: 0 -2462px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-door {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 18px;
-  width: 14px;
-  display: block;
-  background-position: 0 -2849px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-located {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 21px;
-  width: 26px;
-  display: block;
-  background-position: 0 -1329px;
-  -webkit-background-size: 194px auto;
-  -moz-background-size: 194px auto;
-  -o-background-size: 194px auto;
-  background-size: 194px auto; }
-
-/* line 66, ../sass/partials/_icons.scss */
-.ico-lunch {
-  background-image: url('../images/sprite-sa19504c998.png');
-  background-repeat: no-repeat;
-  height: 53px;
-  width: 52px;
+  height: 58px;
+  width: 57px;
   display: block;
   background-position: 0 -723px;
   -webkit-background-size: 194px auto;
@@ -760,77 +591,77 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-discount {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__pencil {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 53px;
-  width: 52px;
+  height: 58px;
+  width: 57px;
   display: block;
-  background-position: 0 -958px;
+  background-position: 0 -926px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-thumb {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__vaucher {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 22px;
-  width: 23px;
+  height: 58px;
+  width: 57px;
   display: block;
-  background-position: 0 -1848px;
+  background-position: 0 -516px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-arrow {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__how {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 16px;
-  width: 23px;
+  height: 58px;
+  width: 57px;
   display: block;
-  background-position: 0 -2434px;
+  background-position: 0 -1330px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-lunch2 {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__floppy {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 32px;
-  width: 16px;
+  height: 58px;
+  width: 57px;
   display: block;
-  background-position: 0 -2391px;
+  background-position: 0 -1161px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-time {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__paper {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 14px;
-  width: 13px;
+  height: 58px;
+  width: 57px;
   display: block;
-  background-position: 0 -2283px;
+  background-position: 0 -1261px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-time2 {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.list_search__undo {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 21px;
-  width: 26px;
+  height: 58px;
+  width: 57px;
   display: block;
   background-position: 0 -857px;
   -webkit-background-size: 194px auto;
@@ -838,61 +669,334 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-time3 {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.ico-arr-r {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
-  height: 21px;
-  width: 20px;
+  height: 18px;
+  width: 7px;
   display: block;
-  background-position: 0 -2046px;
+  background-position: 0 -3181px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-time4 {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.ico-arr-r2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 7px;
+  display: block;
+  background-position: 0 -3210px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-check {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 11px;
+  width: 13px;
+  display: block;
+  background-position: 0 -3375px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-check2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 75px;
+  width: 93px;
+  display: block;
+  background-position: 0 -1573px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-share {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 17px;
+  display: block;
+  background-position: 0 -2881px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-like {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 21px;
+  display: block;
+  background-position: 0 -2387px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-like2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 19px;
+  width: 20px;
+  display: block;
+  background-position: 0 -2481px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-dislike {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 19px;
+  width: 20px;
+  display: block;
+  background-position: 0 -2451px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-info, .val-det-btn_i:before {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 19px;
   display: block;
-  background-position: 0 -2079px;
+  background-position: 0 -2051px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
-.ico-person2 {
-  background-image: url('../images/sprite-sa19504c998.png');
+/* line 77, ../sass/partials/_icons.scss */
+.ico-photo {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 23px;
+  display: block;
+  background-position: 0 -2644px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-photo2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 13px;
+  width: 16px;
+  display: block;
+  background-position: 0 -3035px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-door {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 18px;
+  width: 14px;
+  display: block;
+  background-position: 0 -3397px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-located {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 26px;
+  display: block;
+  background-position: 0 -1728px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-lunch {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 53px;
+  width: 52px;
+  display: block;
+  background-position: 0 -792px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-discount {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 53px;
+  width: 52px;
+  display: block;
+  background-position: 0 -1096px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-thumb {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 22px;
+  width: 23px;
+  display: block;
+  background-position: 0 -2313px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-arrow {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 23px;
+  display: block;
+  background-position: 0 -2980px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-lunch2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 32px;
+  width: 16px;
+  display: block;
+  background-position: 0 -2937px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-time {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 14px;
   width: 13px;
   display: block;
-  background-position: 0 -2608px;
+  background-position: 0 -2789px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
+.ico-time2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 26px;
+  display: block;
+  background-position: 0 -995px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-time3 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 20px;
+  display: block;
+  background-position: 0 -2512px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-time4 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 19px;
+  display: block;
+  background-position: 0 -2585px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-time5 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 20px;
+  width: 19px;
+  display: block;
+  background-position: 0 -2282px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-person2 {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 23px;
+  display: block;
+  background-position: 0 -2186px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
 .icon-long-arr {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 50px;
   width: 15px;
   display: block;
-  background-position: 0 -1787px;
+  background-position: 0 -2221px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-sad {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 126px;
   width: 125px;
@@ -903,89 +1007,128 @@ a {
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-share2 {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 17px;
   display: block;
-  background-position: 0 -2252px;
+  background-position: 0 -2758px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-share3 {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 29px;
   width: 25px;
   display: block;
-  background-position: 0 -1881px;
+  background-position: 0 -2346px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-noise {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 25px;
   display: block;
-  background-position: 0 -1023px;
+  background-position: 0 -1230px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-noise2 {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 22px;
   width: 32px;
   display: block;
-  background-position: 0 -1586px;
+  background-position: 0 -1985px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-hint {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 24px;
   width: 20px;
   display: block;
-  background-position: 0 -1398px;
+  background-position: 0 -1797px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 66, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
 .ico-chat {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 30px;
   width: 31px;
   display: block;
-  background-position: 0 -1054px;
+  background-position: 0 -1453px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto; }
 
-/* line 72, ../sass/partials/_icons.scss */
+/* line 77, ../sass/partials/_icons.scss */
+.ico-successful {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 43px;
+  width: 42px;
+  display: block;
+  background-position: 0 -1399px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-food {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 29px;
+  width: 15px;
+  display: block;
+  background-position: 0 -2841px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 77, ../sass/partials/_icons.scss */
+.ico-percent {
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
+  background-repeat: no-repeat;
+  height: 16px;
+  width: 17px;
+  display: block;
+  background-position: 0 -3008px;
+  -webkit-background-size: 194px auto;
+  -moz-background-size: 194px auto;
+  -o-background-size: 194px auto;
+  background-size: 194px auto; }
+
+/* line 83, ../sass/partials/_icons.scss */
 .ico-logo, .ico-logo-t:before {
   margin: 0 auto; }
 
-/* line 76, ../sass/partials/_icons.scss */
+/* line 87, ../sass/partials/_icons.scss */
 .ico-logo-t {
   width: 194px;
   height: 28px;
@@ -995,7 +1138,7 @@ a {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
-  /* line 83, ../sass/partials/_icons.scss */
+  /* line 94, ../sass/partials/_icons.scss */
   .ico-logo-t:before {
     content: '';
     position: absolute;
@@ -1003,131 +1146,131 @@ a {
     bottom: 0;
     display: block; }
 
-/* line 102, ../sass/partials/_icons.scss */
+/* line 113, ../sass/partials/_icons.scss */
 .ico-nav-message {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 23px;
   width: 26px;
   display: block;
-  background-position: 0 -1260px;
+  background-position: 0 -1659px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 108, ../sass/partials/_icons.scss */
+  /* line 119, ../sass/partials/_icons.scss */
   .ico-nav-message.active {
-    background-image: url('../images/sprite-sa19504c998.png');
+    background-image: url('../images/sprite-sa48d4a6a7c.png');
     background-repeat: no-repeat;
     height: 23px;
     width: 26px;
     display: block;
-    background-position: 0 -1294px;
+    background-position: 0 -1693px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 102, ../sass/partials/_icons.scss */
+/* line 113, ../sass/partials/_icons.scss */
 .ico-nav-search {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 24px;
   width: 23px;
   display: block;
-  background-position: 0 -1683px;
+  background-position: 0 -2082px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -11.5px; }
-  /* line 108, ../sass/partials/_icons.scss */
+  /* line 119, ../sass/partials/_icons.scss */
   .ico-nav-search.active {
-    background-image: url('../images/sprite-sa19504c998.png');
+    background-image: url('../images/sprite-sa48d4a6a7c.png');
     background-repeat: no-repeat;
     height: 24px;
     width: 23px;
     display: block;
-    background-position: 0 -1718px;
+    background-position: 0 -2117px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 102, ../sass/partials/_icons.scss */
+/* line 113, ../sass/partials/_icons.scss */
 .ico-nav-map {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 19px;
   display: block;
-  background-position: 0 -1510px;
+  background-position: 0 -1909px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -9.5px; }
-  /* line 108, ../sass/partials/_icons.scss */
+  /* line 119, ../sass/partials/_icons.scss */
   .ico-nav-map.active {
-    background-image: url('../images/sprite-sa19504c998.png');
+    background-image: url('../images/sprite-sa48d4a6a7c.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 19px;
     display: block;
-    background-position: 0 -1548px;
+    background-position: 0 -1947px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 102, ../sass/partials/_icons.scss */
+/* line 113, ../sass/partials/_icons.scss */
 .ico-nav-top {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 28px;
   width: 21px;
   display: block;
-  background-position: 0 -1095px;
+  background-position: 0 -1494px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -10.5px; }
-  /* line 108, ../sass/partials/_icons.scss */
+  /* line 119, ../sass/partials/_icons.scss */
   .ico-nav-top.active {
-    background-image: url('../images/sprite-sa19504c998.png');
+    background-image: url('../images/sprite-sa48d4a6a7c.png');
     background-repeat: no-repeat;
     height: 28px;
     width: 21px;
     display: block;
-    background-position: 0 -1134px;
+    background-position: 0 -1533px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
     background-size: false auto; }
 
-/* line 102, ../sass/partials/_icons.scss */
+/* line 113, ../sass/partials/_icons.scss */
 .ico-nav-profile {
-  background-image: url('../images/sprite-sa19504c998.png');
+  background-image: url('../images/sprite-sa48d4a6a7c.png');
   background-repeat: no-repeat;
   height: 27px;
   width: 26px;
   display: block;
-  background-position: 0 -1434px;
+  background-position: 0 -1833px;
   -webkit-background-size: 194px auto;
   -moz-background-size: 194px auto;
   -o-background-size: 194px auto;
   background-size: 194px auto;
   margin-left: -13px; }
-  /* line 108, ../sass/partials/_icons.scss */
+  /* line 119, ../sass/partials/_icons.scss */
   .ico-nav-profile.active {
-    background-image: url('../images/sprite-sa19504c998.png');
+    background-image: url('../images/sprite-sa48d4a6a7c.png');
     background-repeat: no-repeat;
     height: 27px;
     width: 26px;
     display: block;
-    background-position: 0 -1472px;
+    background-position: 0 -1871px;
     -webkit-background-size: false auto;
     -moz-background-size: false auto;
     -o-background-size: false auto;
@@ -3011,6 +3154,140 @@ h2.profile__user__row {
     color: #fff !important;
     font-size: 15px;
     padding: 7px 0 0; }
+
+/* line 1, ../sass/partials/_status.scss */
+.status {
+  background: #353f48;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 47px; }
+  /* line 6, ../sass/partials/_status.scss */
+  .status .ico-share {
+    position: relative;
+    top: 11px; }
+  /* line 10, ../sass/partials/_status.scss */
+  .status .list__item {
+    border-bottom: 1px solid #303941; }
+    /* line 12, ../sass/partials/_status.scss */
+    .status .list__item .list__item__main {
+      padding-right: 30px; }
+    /* line 15, ../sass/partials/_status.scss */
+    .status .list__item .list__item__info {
+      display: table-cell;
+      height: 66px;
+      height: 68px;
+      vertical-align: middle; }
+    /* line 21, ../sass/partials/_status.scss */
+    .status .list__item .list__item__title {
+      font-size: 17px;
+      color: #fff;
+      padding: 0;
+      display: inline; }
+    /* line 27, ../sass/partials/_status.scss */
+    .status .list__item .ico-arr-r {
+      margin-top: 0; }
+
+/* line 33, ../sass/partials/_status.scss */
+.status_box {
+  background: #fff;
+  border-top: 2px dotted #dcdcdc;
+  overflow: hidden;
+  padding: 17px 13px 10px; }
+
+/* line 40, ../sass/partials/_status.scss */
+.sb-info {
+  border-top: 0;
+  overflow: hidden; }
+
+/* line 45, ../sass/partials/_status.scss */
+.sb-info_item {
+  overflow: hidden;
+  padding: 0 0 0 36px;
+  position: relative;
+  text-transform: uppercase;
+  color: #353f48;
+  font-size: 12px;
+  line-height: 1.3;
+  margin-top: 33px; }
+  /* line 54, ../sass/partials/_status.scss */
+  .sb-info_item:first-child {
+    margin-top: 0; }
+  /* line 57, ../sass/partials/_status.scss */
+  .sb-info_item i {
+    position: absolute;
+    left: 0;
+    top: 0; }
+
+/* line 64, ../sass/partials/_status.scss */
+.sb-info_time {
+  color: #d45657;
+  text-align: right; }
+  /* line 67, ../sass/partials/_status.scss */
+  .sb-info_time time {
+    color: #353f48;
+    font-size: 12px;
+    display: block;
+    padding-bottom: 5px; }
+  /* line 73, ../sass/partials/_status.scss */
+  .sb-info_time h4, .sb-info_time h5 {
+    font-size: 36px;
+    padding-bottom: 9px; }
+    /* line 76, ../sass/partials/_status.scss */
+    .sb-info_time h4:last-child, .sb-info_time h5:last-child {
+      padding-bottom: 0; }
+    /* line 79, ../sass/partials/_status.scss */
+    .sb-info_time h4 i, .sb-info_time h5 i {
+      display: inline-block; }
+    /* line 82, ../sass/partials/_status.scss */
+    .sb-info_time h4 span, .sb-info_time h5 span {
+      font-size: 24px;
+      position: relative;
+      top: -5px;
+      padding: 0 0 0 6px; }
+
+/* line 92, ../sass/partials/_status.scss */
+.sb-super h3 {
+  text-align: center;
+  color: #353f48;
+  font-size: 12px;
+  padding-bottom: 19px;
+  text-transform: uppercase; }
+/* line 99, ../sass/partials/_status.scss */
+.sb-super article {
+  font-size: 12px;
+  color: #d45657;
+  text-transform: uppercase;
+  line-height: 1.2; }
+  /* line 100, ../sass/partials/_status.scss */
+  .sb-super article > div {
+    width: 50%; }
+  /* line 103, ../sass/partials/_status.scss */
+  .sb-super article i {
+    margin: 0 17px 0 0; }
+  /* line 110, ../sass/partials/_status.scss */
+  .sb-super article h4 {
+    color: #353f48;
+    text-transform: none; }
+
+/* line 117, ../sass/partials/_status.scss */
+.sb-submit {
+  font-size: 12px;
+  color: #4b545c;
+  line-height: 1.3; }
+  /* line 118, ../sass/partials/_status.scss */
+  .sb-submit i {
+    margin: 0 21px 0 0;
+    float: left; }
+  /* line 125, ../sass/partials/_status.scss */
+  .sb-submit h3, .sb-submit h4 {
+    color: #62a62a;
+    padding: 0; }
+  /* line 129, ../sass/partials/_status.scss */
+  .sb-submit h4 {
+    font-size: 17px; }
+  /* line 132, ../sass/partials/_status.scss */
+  .sb-submit p {
+    padding-bottom: 10px; }
 
 /* line 1, ../sass/partials/_footer.scss */
 .footer {

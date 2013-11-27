@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Tablepin</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+    <body>
+<div class="wrapper status">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
+            <a href="javascript:void(0);" class="ico-share pull-right"></a>
+
+            <h2>
+                Бронирование
+            </h2>
+        </div>
+    </header>
+
+    <div class="status_box sb-info">
+        <div class="pull-left">
+            <div class="sb-info_item">
+                <i class="ico-time5"></i>
+                <p>ДАТА И  <br>
+                    ВРЕМЯ</p>
+            </div>
+            <div class="sb-info_item">
+                <i class="ico-person2"></i>
+                <p>КОЛИЧЕСТВО <br>
+                    ПЕРСОН</p>
+            </div>
+        </div>
+        <div class="pull-right sb-info_time">
+            <time>Сб, 25.08.2012</time>
+            <h4>19:00</h4>
+            <h4><i class="ico-person3"></i><span>x</span>  7</h4>
+        </div>
+    </div>
+
+    <div class="status_box sb-super">
+        <h3>Спецпредложение</h3>
+
+        <article class="clearfix">
+            <div class="pull-left">
+                <i class="ico-food pull-left"></i>
+                <div class="center">
+                    <h4>Бизнес-ланч</h4>
+                    49 грн
+                </div>
+            </div>
+            <div class="pull-left">
+                <i class="ico-percent pull-left"></i>
+                <div class="center">
+                    <h4>Скидка</h4>
+                    на гриль-меню <br>
+                    -25%
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div class="status_box sb-submit">
+        <i class="ico-successful"></i>
+        <article class="center">
+            <h3>подтвержденно</h3>
+
+            <p>(Бронирование подтверждено
+                рестораном)</p>
+
+            код бронирования:
+            <h4>001432</h4>
+
+        </article>
+    </div>
+
+    <div class="list-wrapper">
+        <div class="list list_search">
+            <div class="list__item ">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__vaucher"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Ваучер
+                        </h2>
+                        <i class="ico-arr-r ico-arr-r2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__how"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Как это <br>
+                            работает?
+                        </h2>
+                        <i class="ico-arr-r ico-arr-r2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__floppy"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Сохранить дату <br>
+                            в календаре </h2>
+                        <i class="ico-arr-r ico-arr-r2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item__main">
+                    <i class=" list_search__ico list_search__paper"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Условия <br>
+                            (бронирования)</h2>
+                        <i class="ico-arr-r ico-arr-r2"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="list__item">
+                <div class="list__item__main">
+                    <i class="list_search__ico list_search__undo"></i>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Отменить <br>
+                            бронирование</h2>
+                        <i class="ico-arr-r ico-arr-r2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="not-float_bottom">
+        <a class="btn btn_red" href="javascript:void(0);">Пригласить друзей</a>
+    </div>
+</div>
+<script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".value-list .list__item,.hint-list .list__item, .profile__user__row_soc, .vd-map").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
+</body>
+</html>
+
+
