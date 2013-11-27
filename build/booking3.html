@@ -23,7 +23,19 @@
         </h2>
 
         <div class="book-list">
-            <div class="book-list-item">
+            <div class="book-list-item select
+                 opened
+                ">
+                <div class="book-list-select">
+                    <a class="book-list-btn textbox" href="javascript:void(0);">Ресторан</a>
+                    <select name="restaurant" id="restaurant">
+                        <option value="1">restaurant 1</option>
+                        <option value="1">restaurant 2</option>
+                        <option value="1">restaurant 3</option>
+                        <option value="1">restaurant 4</option>
+                    </select>
+                </div>
+
                 <div class="new-rewiev-cafe">
                     <i class="ico-lunch2"></i>
                     <a href="javascript:void(0);" class="ico-arr-r2"></a>
@@ -34,7 +46,13 @@
                     </div>
                 </div>
             </div>
-            <div class="book-list-item">
+            <div class="book-list-item select
+                 opened
+                ">
+                <div class="book-list-select">
+                    <a class="book-list-btn textbox" href="javascript:void(0);">Выбор даты</a>
+                    <input type="date"/>
+                </div>
                 <div class="new-rewiev-cafe">
                     <i class="ico-time3"></i>
                     <a href="javascript:void(0);" class="ico-arr-r2"></a>
@@ -45,7 +63,13 @@
                     </div>
                 </div>
             </div>
-            <div class="book-list-item">
+            <div class="book-list-item select
+                 opened
+                ">
+                <div class="book-list-select">
+                    <a class="book-list-btn textbox" href="javascript:void(0);">Выбор времени</a>
+                    <input type="time"/>
+                </div>
                 <div class="new-rewiev-cafe">
                     <i class="ico-time4"></i>
                     <a href="javascript:void(0);" class="ico-arr-r2"></a>
@@ -57,7 +81,7 @@
                 </div>
             </div>
             <div class="book-list-item">
-                <a class="book-list-btn" href="javascript:void(0);">
+                <a class="book-list-btn textbox" href="javascript:void(0);">
                     <i class="pull-left">-</i>
                     4 человека
                     <i class="pull-right">+</i>
@@ -68,9 +92,12 @@
 
     </div>
     <div class="float_bottom float_bottom_smaller">
-        <a class="btn_green" href="javascript:void(0);">Бронирование</a>
+        <a class="btn_red" href="javascript:void(0);">Поиск</a>
     </div>
 </div>
+
+
+
 <script src="js/vendors/jquery-1.10.2.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function(){

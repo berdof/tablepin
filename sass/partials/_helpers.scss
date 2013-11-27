@@ -119,13 +119,25 @@ a {
 }
 
 .ios7 {
-
+  &:before {
+    content: '';
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: #d45657;
+    z-index: 10000;
+  }
   .header {
     top: 20px;
   }
   .wrapper{
     margin-top: 20px;
   }
+
+
 }
 
 .debug {

@@ -99,7 +99,8 @@
       @extend .ico-arr-d;
     }
   }
-  select {
+  select ,
+  input {
     position: absolute;
     left: 0;
     top: 0;

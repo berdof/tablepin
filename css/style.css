@@ -216,14 +216,25 @@ a {
 .dark-bg {
   background: #353535 !important; }
 
-/* line 123, ../sass/partials/_helpers.scss */
+/* line 122, ../sass/partials/_helpers.scss */
+.ios7:before {
+  content: '';
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 20px;
+  background: #d45657;
+  z-index: 10000; }
+/* line 133, ../sass/partials/_helpers.scss */
 .ios7 .header {
   top: 20px; }
-/* line 126, ../sass/partials/_helpers.scss */
+/* line 136, ../sass/partials/_helpers.scss */
 .ios7 .wrapper, .ios7 .content {
   margin-top: 20px; }
 
-/* line 131, ../sass/partials/_helpers.scss */
+/* line 143, ../sass/partials/_helpers.scss */
 .debug {
   width: 320px;
   height: 548px;
@@ -232,7 +243,7 @@ a {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   border: 1px solid #000; }
-  /* line 133, ../sass/partials/_helpers.scss */
+  /* line 145, ../sass/partials/_helpers.scss */
   .debug .header,
   .debug .footer {
     position: absolute; }
@@ -1345,8 +1356,9 @@ input[type=search] {
       top: 21px;
       right: 15px;
       display: block; }
-  /* line 102, ../sass/partials/_login.scss */
-  .select select {
+  /* line 103, ../sass/partials/_login.scss */
+  .select select,
+  .select input {
     position: absolute;
     left: 0;
     top: 0;
@@ -2917,82 +2929,88 @@ h2.profile__user__row {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+  /* line 29, ../sass/partials/_book.scss */
+  .book-list .book-list-btn {
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 49px;
+    background: #e37171;
+    font-size: 19px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    padding: 0; }
+    /* line 42, ../sass/partials/_book.scss */
+    .book-list .book-list-btn:after {
+      display: none !important; }
+    /* line 45, ../sass/partials/_book.scss */
+    .book-list .book-list-btn i {
+      display: block;
+      width: 50px;
+      height: 100%;
+      line-height: 49px;
+      position: absolute;
+      top: 0;
+      background: #e98d8d;
+      font-size: 26px;
+      cursor: pointer; }
+      /* line 55, ../sass/partials/_book.scss */
+      .book-list .book-list-btn i.pull-left {
+        left: 0; }
+      /* line 58, ../sass/partials/_book.scss */
+      .book-list .book-list-btn i.pull-right {
+        right: 0; }
 
-/* line 31, ../sass/partials/_book.scss */
+/* line 69, ../sass/partials/_book.scss */
 .book-list-item {
   margin-top: 16px;
   height: 49px; }
-  /* line 34, ../sass/partials/_book.scss */
+  /* line 73, ../sass/partials/_book.scss */
+  .book-list-item.opened .book-list-select {
+    display: none; }
+  /* line 77, ../sass/partials/_book.scss */
   .book-list-item .new-rewiev-cafe {
     padding: 0 25px 0 0;
     position: relative;
     height: 49px; }
-    /* line 38, ../sass/partials/_book.scss */
+    /* line 81, ../sass/partials/_book.scss */
     .book-list-item .new-rewiev-cafe .ico-arr-r2 {
       position: absolute;
       right: 0;
       top: 50%;
       margin-top: -9px;
       z-index: 2; }
-    /* line 47, ../sass/partials/_book.scss */
+    /* line 90, ../sass/partials/_book.scss */
     .book-list-item .new-rewiev-cafe .ico-lunch2,
     .book-list-item .new-rewiev-cafe .ico-time3,
     .book-list-item .new-rewiev-cafe .ico-time4 {
       top: 8px;
       float: left;
       margin: 0 18px 0 0; }
-    /* line 53, ../sass/partials/_book.scss */
+    /* line 96, ../sass/partials/_book.scss */
     .book-list-item .new-rewiev-cafe .ico-time3,
     .book-list-item .new-rewiev-cafe .ico-time4 {
       top: 12px; }
-    /* line 56, ../sass/partials/_book.scss */
+    /* line 99, ../sass/partials/_book.scss */
     .book-list-item .new-rewiev-cafe .center {
       position: relative;
       top: 6px; }
 
-/* line 62, ../sass/partials/_book.scss */
+/* line 105, ../sass/partials/_book.scss */
 .book-list-time {
   overflow: hidden;
   padding-top: 10px; }
-  /* line 65, ../sass/partials/_book.scss */
+  /* line 108, ../sass/partials/_book.scss */
   .book-list-time h3 {
     padding-top: 3px; }
-  /* line 68, ../sass/partials/_book.scss */
+  /* line 111, ../sass/partials/_book.scss */
   .book-list-time time {
     color: #fff !important;
     font-size: 15px;
     padding: 7px 0 0; }
-
-/* line 75, ../sass/partials/_book.scss */
-.book-list-btn {
-  display: block;
-  width: 100%;
-  height: 100%;
-  line-height: 49px;
-  background: #e37171;
-  font-size: 19px;
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-  position: relative;
-  font-weight: 300; }
-  /* line 87, ../sass/partials/_book.scss */
-  .book-list-btn i {
-    display: block;
-    width: 50px;
-    height: 100%;
-    line-height: 49px;
-    position: absolute;
-    top: 0;
-    background: #e98d8d;
-    font-size: 26px;
-    cursor: pointer; }
-    /* line 97, ../sass/partials/_book.scss */
-    .book-list-btn i.pull-left {
-      left: 0; }
-    /* line 100, ../sass/partials/_book.scss */
-    .book-list-btn i.pull-right {
-      right: 0; }
 
 /* line 1, ../sass/partials/_footer.scss */
 .footer {
