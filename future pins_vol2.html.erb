@@ -1,0 +1,93 @@
+<%= render :partial => "views/base/top", :locals => {:bodyClass => false} %>
+<div class="wrapper review-list2">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <h2>
+                Tablepin
+            </h2>
+        </div>
+        <div class="header-bottom">
+            <a href="javascript:void(0);"><i class="ico-book"></i>Новое бронирование</a>
+
+            <div class="center">
+                <span class="pull-left">Будущие бронирования:</span>
+                <span class="pull-right">2</span>
+            </div>
+        </div>
+    </header>
+    <div class="list-wrapper">
+        <div class="list">
+
+                <div class="list__item">
+                    <div class="list__item__main">
+                        <%= image_tag(lorem_image("125x90")) %>
+
+                        <div class="list__item__info">
+                            <h2 class="list__item__title">
+                                Bartolomeo
+                            </h2>
+
+                            <div class="list__item__address">
+                                <address>
+                                    <i class="ico-time6"></i>
+                                    Сб, 25.08.2012 <br>
+                                    19:00
+                                </address>
+                                <address>
+                                    <i class="ico-person4"></i>
+                                    2 персоны
+                                </address>
+                                <address class="address-status">
+                                    <i class="ico-refresh"></i>
+                                    в ожидании
+                                </address>
+                            </div>
+
+                        </div>
+                        <div class="list__item-indicator food">
+                            <i></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="list__item">
+                    <div class="list__item__main">
+                        <%= image_tag(lorem_image("125x90")) %>
+
+                        <div class="list__item__info">
+                            <h2 class="list__item__title">
+                                Bartolomeo
+                            </h2>
+
+                            <div class="list__item__address">
+                                <address>
+                                    <i class="ico-time6"></i>
+                                    Сб, 25.08.2012 <br>
+                                    19:00
+                                </address>
+                                <address>
+                                    <i class="ico-person4"></i>
+                                    2 персоны
+                                </address>
+                                <address class="address-checked">
+                                    <i class="ico-check3"></i>
+                                    подтвержденно
+                                </address>
+                            </div>
+
+                        </div>
+                        <div class="list__item-indicator ">
+                            <i>7%</i>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+
+    <%= render :partial => "views/footer" %>
+</div>
+<%= render :partial => "views/base/bottom" %>
+
+
+

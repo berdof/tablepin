@@ -1,0 +1,141 @@
+<%= render :partial => "views/base/top", :locals => {:bodyClass => false} %>
+<div class="wrapper review-list3">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <h2>
+                Tablepin
+            </h2>
+        </div>
+        <div class="header-bottom">
+            Выберите один из ресторанов, <br>
+            котороые Вы посетили
+        </div>
+    </header>
+    <div class="list-wrapper">
+        <div class="list">
+
+            <div class="list__item checked">
+                <div class="list__item__main">
+                    <%= image_tag(lorem_image("125x90")) %>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                            <address class="address-now">
+                                <i class="ico-arr-d2"></i>
+                                сейчас
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator ">
+                        <i>7%</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list__item">
+                <div class="list__item__main">
+                    <%= image_tag(lorem_image("125x90")) %>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator food">
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list__item">
+                <div class="list__item__main">
+                    <%= image_tag(lorem_image("125x90")) %>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator checked">
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list__item">
+                <div class="list__item__main">
+                    <%= image_tag(lorem_image("125x90")) %>
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator close">
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <%= render :partial => "views/footer" %>
+</div>
+<%= render :partial => "views/base/bottom" %>
+
+
+

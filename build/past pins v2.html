@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>Tablepin</title>
+    <link href="css/style.css" rel="stylesheet"/>
+</head>
+    <body>
+<div class="wrapper review-list3">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <h2>
+                Tablepin
+            </h2>
+        </div>
+        <div class="header-bottom">
+            Выберите один из ресторанов, <br>
+            котороые Вы посетили
+        </div>
+    </header>
+    <div class="list-wrapper">
+        <div class="list">
+
+            <div class="list__item checked">
+                <div class="list__item__main">
+                    <img src="http://placehold.it/125x90" />
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                            <address class="address-now">
+                                <i class="ico-arr-d2"></i>
+                                сейчас
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator ">
+                        <i>7%</i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list__item">
+                <div class="list__item__main">
+                    <img src="http://placehold.it/125x90" />
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator food">
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list__item">
+                <div class="list__item__main">
+                    <img src="http://placehold.it/125x90" />
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator checked">
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list__item">
+                <div class="list__item__main">
+                    <img src="http://placehold.it/125x90" />
+
+                    <div class="list__item__info">
+                        <h2 class="list__item__title">
+                            Bartolomeo
+                        </h2>
+
+                        <div class="list__item__address">
+                            <address>
+                                <i class="ico-time6"></i>
+                                Сб, 25.08.2012 <br>
+                                19:00
+                            </address>
+                            <address>
+                                <i class="ico-person4"></i>
+                                2 персоны
+                            </address>
+                        </div>
+
+                    </div>
+                    <div class="list__item-indicator close">
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+    <ul class="footer__nav">
+        <li><a class="ico-nav-message" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav-search" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav-map" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav-top" href="javascript:void(0);"></a></li>
+        <li><a class="ico-nav-profile active" href="javascript:void(0);"></a></li>
+    </ul>
+</footer>
+
+
+</div>
+<script src="js/vendors/jquery-1.10.2.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".value-list .list__item,.hint-list .list__item, .profile__user__row_soc, .vd-map").on("click",function(){
+            $(this).toggleClass("opened")
+        })
+    })
+</script>
+</body>
+</html>
+
+

@@ -580,7 +580,7 @@ h2.list-title {
     padding: 2px 0 0;
   }
 
-  .list__item__main{
+  .list__item__main {
     padding-bottom: 3px;
   }
 
@@ -609,11 +609,11 @@ h2.list-title {
     right: 6px;
     position: absolute;
 
-    &.ico-like2{
+    &.ico-like2 {
       top: 2px;
     }
 
-    &.ico-dislike{
+    &.ico-dislike {
       top: 6px;
     }
   }
@@ -625,4 +625,263 @@ h2.list-title {
 
 .list__item__vote-dislike {
   color: #d45657;
+}
+
+.review-list2 {
+  @extend .review-list;
+  padding-top: 163px;
+  .header {
+    h2 {
+      line-height: 47px;
+      font-weight: 400;
+    }
+  }
+  .list__item-indicator {
+    width: 41px;
+    height: 41px;
+    line-height: 41px;
+    @include border-radius(42px);
+    @include background-clip(padding-box);
+    background-color: #d35557;
+    position: absolute;
+    right: 14px;
+    top: 50%;
+    margin-top: -20px;
+    color: #fff;
+    font-size: 17px;
+    text-align: center;
+    &.checked {
+      background-color: #84bf2f;
+      i {
+        @extend .ico-check4;
+        position: relative;
+        top: 11px;
+        left: 9px;
+      }
+    }
+    &.close {
+      background-color: #c2c2c2;
+      i {
+        @extend .ico-x;
+        position: relative;
+        top: 10px;
+        left: 10px;;
+      }
+    }
+    &.food {
+      i {
+        @extend .ico-food2;
+      }
+    }
+    .ico-food2 {
+      position: relative;
+      left: 13px;
+      top: 6px;
+    }
+  }
+  .list__item_time {
+
+  }
+  .list__item__address {
+    address {
+      position: relative;
+      padding: 0 0 0 22px;
+      color: #353f48;
+      font-size: 12px;
+      line-height: 1.3;
+      &.address-status {
+        color: #878787;
+        i {
+          top: 3px;
+        }
+      }
+      &.address-checked {
+        color: #62a62a;
+        i {
+          top: 3px;
+        }
+      }
+      &.address-now {
+        color: #43b3cf;
+        position: relative;
+        top: 2px;
+        i {
+          top: 1px;
+        }
+      }
+      i {
+        position: absolute;
+        left: 0;
+        top: 1px;
+      }
+    }
+  }
+
+  .header {
+    height: auto;
+    padding-left: 0;
+    border-bottom: 1px solid #e5e5e5;
+    & > .clearfix {
+      padding-left: 18px;
+    }
+  }
+}
+
+.header-bottom {
+  background: #fff;
+  @include box-sizing(border-box);
+  padding: 5px 3px;
+  a {
+    height: 49px;
+    line-height: 49px;
+    background-color: #353f48;
+    color: #d1d2d4;
+    display: block;
+    text-align: center;
+  }
+  i {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin: 0 14px 0 0;
+  }
+  & >.center {
+    color: #353f48;
+    font-size: 17px;
+    padding: 15px 25px 20px 8px;
+  }
+}
+
+.review-list3 {
+  @extend .review-list2;
+  padding-top: 106px;
+  padding-bottom: 49px;
+  .header-bottom {
+    color: #353f48;
+    font-size: 17px;
+    padding: 10px 10px 5px;
+  }
+  .list__item {
+    &.checked {
+      background: #37414a;
+      .ico-time6{
+        @extend .ico-time7;
+      }
+      .ico-person4{
+        @extend .ico-person6;
+      }
+      .list__item__title,
+      address{
+        color: #fff;
+      }
+      .address-now{
+        color: #43b3cf !important;
+      }
+    }
+  }
+}
+
+.notify-list {
+  background: #fff;
+  padding-top: 47px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  .content {
+    padding-left: 0;
+    padding-right: 0;
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: block;
+      width: 51px;
+      height: 100%;
+      background: #ebecec;
+      border-right: 2px solid #d3d4d4;
+    }
+  }
+  .list {
+    position: relative;
+    z-index: 3;
+  }
+  .list__item {
+    border-bottom: 1px solid #d3d4d4;
+    overflow: hidden;
+    position: relative;
+    color: #3b4149;
+
+    &.nl-person {
+      time {
+        i {
+          &:before {
+            @extend .ico-person5;
+            top: 2px;
+            left: 4px;
+          }
+
+        }
+      }
+    }
+    &.nl-check {
+      time {
+        i {
+          &:before {
+            @extend .ico-check5;
+            top: 3px;
+            left: 5px;
+          }
+        }
+      }
+    }
+
+    time {
+      font-size: 12px;
+      width: 51px;
+      float: left;
+      @include box-sizing(border-box);
+      padding: 17px 0 0 11px;
+      i {
+        display: block;
+        width: 21px;
+        height: 21px;
+        left: 39px;
+        top: 10px;
+        position: absolute;
+        background: #fffbfc;
+        border: 2px solid #bababa;
+        @include border-radius(100px);
+        &:before {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+    article {
+      padding: 13px 15px 17px 62px;
+      position: relative;
+      min-height: 35px;
+      line-height: 1.2;
+      .ico-food3,
+      img {
+        display: block;
+        position: absolute;
+        top: 12px;
+        left: 25px;
+      }
+      p {
+        font-size: 12px;
+        span {
+          display: block;
+          &.red {
+            color: #d45657;
+            display: inline;
+          }
+        }
+      }
+    }
+  }
 }
