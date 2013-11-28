@@ -28,6 +28,30 @@
       margin-top: 0;
     }
   }
+  .vd-map-nav{
+    height: 61px;
+    .ico-arr-d{
+      top: 26px;
+    }
+    address{
+      padding-left: 37px;
+    }
+    .ico-located{
+      top: 18px;
+    }
+  }
+  .vd-map-close{
+
+  }
+  .vd-map-flag{
+    @extend .vd-map-close;
+    right: auto;
+    left: 16px;
+    i{
+      top: 7px;
+      left: 7px;
+    }
+  }
 }
 
 .status_box {
@@ -70,16 +94,16 @@
     display: block;
     padding-bottom: 5px;
   }
-  h4,h5 {
+  h4, h5 {
     font-size: 36px;
     padding-bottom: 9px;
-    &:last-child{
+    &:last-child {
       padding-bottom: 0;
     }
-    i{
+    i {
       display: inline-block;
     }
-    span{
+    span {
       font-size: 24px;
       position: relative;
       top: -5px;
