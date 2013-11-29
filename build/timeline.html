@@ -74,6 +74,10 @@
         $(".value-list .list__item,.hint-list .list__item, .profile__user__row_soc, .vd-map").on("click",function(){
             $(this).toggleClass("opened")
         })
+
+        $(".value-list-map .show-on-map").on("click",function(){
+            $(".header").toggleClass("map-opened")
+        })
     })
 </script>
 </body>

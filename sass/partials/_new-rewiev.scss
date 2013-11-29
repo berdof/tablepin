@@ -127,6 +127,9 @@
 .new-rewiev_v2{
   @extend .new-rewiev;
   padding-bottom: 4px !important;
+  .ico-person6{
+    @include opacity(0.5);
+  }
 }
 
 .new-rewiev-form{

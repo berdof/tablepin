@@ -8,12 +8,21 @@
     <link href="css/style.css" rel="stylesheet"/>
 </head>
     <body>
-<div class="wrapper value-list">
+<div class="wrapper value-list value-list-map">
     <header class="header header_fixed">
         <div class="clearfix">
             <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
-            <a class="show-on-map pull-right" href="javascript:void(0);">show on map <i class="ico-location"></i></a>
+            <a class="show-on-map pull-right" href="javascript:void(0);"> <span class="show-on-map-on">show on map</span> <span class="show-on-map-off">Hide map</span>  <i class="ico-location"></i></a>
         </div>
+
+        <div class="vd-map">
+            <div class="vd-map-area">
+                <div class="google-maps-holder"></div>
+                <div class="vd-map-flag"><i class="ico-flag"></i></div>
+                <div class="vd-map-close"><i class="ico-arr-d"></i></div>
+            </div>
+        </div>
+
         <form class="value-list__form">
 
 

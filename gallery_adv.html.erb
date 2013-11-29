@@ -1,0 +1,43 @@
+<%= render :partial => "views/base/top", :locals => {:bodyClass => false} %>
+<div class="wrapper gallery-list">
+    <header class="header header_fixed">
+        <div class="clearfix">
+            <a href="javascript:void(0);" class="ico-arr-l pull-left"></a>
+
+            <h2>
+                Тандыр
+                <span class="header-sub-title">12 фотографий</span>
+            </h2>
+        </div>
+    </header>
+
+    <div class="photos">
+        <div class="photos-box">
+            <h3>фотографии ресторана</h3>
+
+            <% (1..9).each do |n| %>
+                <div class="photos-cell">
+                    <%= image_tag(lorem_image("104x104")) %>
+                </div>
+            <% end %>
+
+
+        </div>
+        <div class="photos-box">
+            <h3>фотографии пользователей</h3>
+
+            <% (1..9).each do |n| %>
+                <div class="photos-cell">
+                    <%= image_tag(lorem_image("104x104")) %>
+                </div>
+            <% end %>
+
+
+        </div>
+    </div>
+
+</div>
+<%= render :partial => "views/base/bottom" %>
+
+
+
